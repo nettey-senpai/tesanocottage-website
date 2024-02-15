@@ -15,7 +15,7 @@ const Hero = () => {
       setTimeout(() => {
         nextSlide();
       }, 3000);
-  },);
+  });
 
   // If current Hero is the 1st Hero set the new index to the last index of the Hero array
   const prevSlide = () => {
@@ -48,11 +48,14 @@ const Hero = () => {
         setAutoPlay(true);
       }}
     >
+      {/* Carousel */}
       <div
         style={{ backgroundImage: `url(${hero[currentIndex].img})` }}
         className="w-full h-full bg-center bg-cover duration-700 ease-in-out md:rounded-none rounded min-h-screen"
       >
+        {/* Background Overlay */}
         <div className="absolute insert-0 w-full h-screen bg-gray-900 bg-opacity-50 z-0"></div>
+
         {/* Hero Text */}
         <div className="absolute top-[37%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
           <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
