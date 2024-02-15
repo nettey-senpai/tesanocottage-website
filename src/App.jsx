@@ -13,7 +13,7 @@ const App = () => (
     </div>
 
     <div className={`${styles.boxWidth} z-0`}>
-      <Hero autoSlide={true} />
+      <Hero />
     </div>
     <div className={`bg-primary ${styles.paddingx} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>

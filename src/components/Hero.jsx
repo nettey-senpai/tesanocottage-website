@@ -5,8 +5,17 @@ import { RxDotFilled } from "react-icons/rx";
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const autoSlide = false;
-  const autoSlideInterval = 3000;
+  const [autoPlay, setAutoPlay] = useState(true);
+  let timeOut = null;
+
+  // Autoplay function for Hero
+  useEffect(() => {
+    timeOut =
+      autoPlay &&
+      setTimeout(() => {
+        nextSlide();
+      }, 3000);
+  },);
 
   // If current Hero is the 1st Hero set the new index to the last index of the Hero array
   const prevSlide = () => {
@@ -22,15 +31,7 @@ const Hero = () => {
     setCurrentIndex(newIndex);
   };
 
-  useEffect(() => {
-    if (autoSlide) {
-      return;
-    } else {
-      const slideInterval = setInterval(nextSlide, autoSlideInterval);
-      return () => clearInterval(slideInterval);
-    }
-  }, []);
-
+  // Function for dots control
   const goToSlide = (imgIndex) => {
     setCurrentIndex(imgIndex);
   };
@@ -39,6 +40,13 @@ const Hero = () => {
     <section
       id="home"
       className="flex xl:flex-row flex-col justify-center w-full relative group px-4 md:px-0 group"
+      onMouseEnter={() => {
+        setAutoPlay(false);
+        clearTimeout(timeOut);
+      }}
+      onMouseLeave={() => {
+        setAutoPlay(true);
+      }}
     >
       <div
         style={{ backgroundImage: `url(${hero[currentIndex].img})` }}
