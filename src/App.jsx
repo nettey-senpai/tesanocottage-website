@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
 import { AboutTC, EventsCenter, OurRooms, ViewGallery } from "./sections";
 import styles from "./style";
 
@@ -15,13 +15,13 @@ const App = () => (
     <div className={`${styles.boxWidth} z-0`}>
       <Hero />
     </div>
-    <div className={`${styles.paddingx} ${styles.flexStart}`}>
+    <div className={`${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-       <AboutTC />
-       <OurRooms />
-       <EventsCenter />
-       <ViewGallery />
-       <Footer />
+        <AboutTC />
+        <OurRooms />
+        <EventsCenter />
+        <ViewGallery />
+        <Footer />
       </div>
     </div>
   </div>
