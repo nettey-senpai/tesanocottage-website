@@ -10,14 +10,14 @@ const Navbar = () => {
       <img
         src={logo}
         alt="tesanocottage"
-        className="z-50 w-[224px] h-[100px]"
+        className="z-50 w-[224px] h-[100px] cursor-pointer"
       />
 
       <ul className="list-none md:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav) => (
           <li key={nav.label} className="mr-10 last:mr-0">
             <a
-              href={`#${nav.href}`}
+              href={`${nav.href}`}
               className="font-montserrat font-normal leading-normal text-lg text-slate-gray hover:text-pomo-red"
             >
               {nav.label}

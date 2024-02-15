@@ -1,5 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"
+import { AboutTC, EventsCenter, OurRooms, ViewGallery } from "./sections";
 import styles from "./style";
 
 const App = () => (
@@ -11,7 +13,16 @@ const App = () => (
     </div>
 
     <div className={`${styles.boxWidth} z-0`}>
-      <Hero />
+      <Hero autoSlide={true} />
+    </div>
+    <div className={`bg-primary ${styles.paddingx} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+       <AboutTC />
+       <OurRooms />
+       <EventsCenter />
+       <ViewGallery />
+       <Footer />
+      </div>
     </div>
   </div>
 );

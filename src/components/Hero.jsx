@@ -8,13 +8,6 @@ const Hero = () => {
   const autoSlide = false;
   const autoSlideInterval = 3000;
 
-  useEffect (() => {
-    if (!autoSlide) return
-    const slideInterval = setInterval(nextSlide, autoSlideInterval)
-    return () => clearInterval(slideInterval)
-  }, [])
-
-
   // If current Hero is the 1st Hero set the new index to the last index of the Hero array
   const prevSlide = () => {
     const isFirstHero = currentIndex === 0;
@@ -29,6 +22,15 @@ const Hero = () => {
     setCurrentIndex(newIndex);
   };
 
+  useEffect(() => {
+    if (autoSlide) {
+      return;
+    } else {
+      const slideInterval = setInterval(nextSlide, autoSlideInterval);
+      return () => clearInterval(slideInterval);
+    }
+  }, []);
+
   const goToSlide = (imgIndex) => {
     setCurrentIndex(imgIndex);
   };
@@ -41,15 +43,22 @@ const Hero = () => {
       <div
         style={{ backgroundImage: `url(${hero[currentIndex].img})` }}
         className="w-full h-full bg-center bg-cover duration-700 ease-in-out md:rounded-none rounded min-h-screen"
-        
       >
+        <div className="absolute insert-0 w-full h-screen bg-gray-900 bg-opacity-50 z-0"></div>
+        {/* Hero Text */}
+        <div className="absolute top-[37%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
+          <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
+            A Memorable Experience.
+          </h1>
+        </div>
+
         {/* left arraow */}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 traslate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/60 text-white cursor-pointer">
+        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 traslate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-white/60 text-black cursor-pointer z-20">
           <BsChevronCompactLeft size={30} onClick={prevSlide} />
         </div>
 
         {/* Right arraow */}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 traslate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/60 text-white cursor-pointer">
+        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 traslate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-white/60 text-black cursor-pointer z-20">
           <BsChevronCompactRight size={30} onClick={nextSlide} />
         </div>
       </div>
