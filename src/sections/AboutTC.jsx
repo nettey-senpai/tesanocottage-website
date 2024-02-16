@@ -30,8 +30,12 @@ const AboutTC = () => (
     </div>
 
     {/* Right side */}
-    <div className={layout.sectionImg}>
-      <img src={about} alt="card" className="w-[100%] h-[100%]" />
+    <div className={`${layout.sectionImg} overflow-hidden`}>
+      <img
+        src={about}
+        alt="card"
+        className="w-[100%] h-[100%] hover:scale-125 transition ease-in-out duration-1000 cursor-pointer object-cover"
+      />
     </div>
   </section>
 );

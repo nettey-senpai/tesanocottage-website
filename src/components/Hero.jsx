@@ -8,28 +8,29 @@ const Hero = () => {
   const [autoPlay, setAutoPlay] = useState(true);
   let timeOut = null;
 
-  // Autoplay function for Hero
-  useEffect(() => {
-    timeOut =
-      autoPlay &&
-      setTimeout(() => {
-        nextSlide();
-      }, 3000);
-  });
 
-  // If current Hero is the 1st Hero set the new index to the last index of the Hero array
+  // Function for Prev Slide: If current Hero is the 1st Hero set the new index to the last index of the Hero array
   const prevSlide = () => {
     const isFirstHero = currentIndex === 0;
     const newIndex = isFirstHero ? hero.length - 1 : currentIndex - 1;
     setCurrentIndex(newIndex);
   };
 
-  // If current Hero is the last Hero set the new index to the first index of the Hero array
+  // Function for Next Slide:If current Hero is the last Hero set the new index to the first index of the Hero array
   const nextSlide = () => {
     const isLastHero = currentIndex === hero.length - 1;
     const newIndex = isLastHero ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
+
+    // Autoplay function for Hero
+    useEffect(() => {
+      timeOut =
+        autoPlay &&
+        setTimeout(() => {
+          nextSlide();
+        }, 3000);
+    });
 
   // Function for dots control
   const goToSlide = (imgIndex) => {
