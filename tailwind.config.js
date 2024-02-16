@@ -29,9 +29,12 @@ export default {
         xs: "480px",
         ss: "620px",
         sm: "768px",
-        md: "1000px",
+        md: "1025px",
         lg: "1200px",
         xl: "1700px",
+      },
+      boxShadow: {
+        "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
       },
     },
   },
