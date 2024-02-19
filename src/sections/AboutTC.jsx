@@ -34,7 +34,7 @@ const AboutTC = () => (
       <img
         src={about}
         alt="card"
-        className="w-[100%] h-[100%] hover:scale-125 transition ease-in-out duration-1000 cursor-pointer object-cover"
+        className="w-[75%] h-[60%] hover:scale-125 transition ease-in-out duration-1000 cursor-pointer object-cover"
       />
     </div>
   </section>

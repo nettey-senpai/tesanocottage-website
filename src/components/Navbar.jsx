@@ -10,7 +10,7 @@ const Navbar = () => {
       <img
         src={logo}
         alt="tesanocottage"
-        className="z-50 w-[224px] h-[100px] cursor-pointer"
+        className="z-50 w-[224px] h-[100px] pr-10 cursor-pointer"
       />
 
       <ul className="list-none md:flex hidden justify-end items-center flex-1">
