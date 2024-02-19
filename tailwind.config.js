@@ -28,7 +28,7 @@ export default {
       screens: {
         xs: "480px",
         ss: "620px",
-        sm: "768px",
+        sm: "640px",
         md: "1025px",
         lg: "1200px",
         xl: "1700px",
