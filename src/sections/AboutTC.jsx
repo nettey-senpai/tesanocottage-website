@@ -26,7 +26,7 @@ const AboutTC = () => (
         Banquets, weddings, birthday parties, and other ceremonial gatherings
         are all catered for by our expert personnel.
       </p>
-      <Button styles="mt-10 hover:bg-red-600" label="Read More" />
+      <Button styles="mt-10 bg-pomo-red hover:bg-red-600 rounded-[10px]" label="Read More" />
     </div>
 
     {/* Right side */}

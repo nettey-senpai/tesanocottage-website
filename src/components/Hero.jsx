@@ -8,7 +8,6 @@ const Hero = () => {
   const [autoPlay, setAutoPlay] = useState(true);
   let timeOut = null;
 
-
   // Function for Prev Slide: If current Hero is the 1st Hero set the new index to the last index of the Hero array
   const prevSlide = () => {
     const isFirstHero = currentIndex === 0;
@@ -23,14 +22,14 @@ const Hero = () => {
     setCurrentIndex(newIndex);
   };
 
-    // Autoplay function for Hero
-    useEffect(() => {
-      timeOut =
-        autoPlay &&
-        setTimeout(() => {
-          nextSlide();
-        }, 3000);
-    });
+  // Autoplay function for Hero
+  useEffect(() => {
+    timeOut =
+      autoPlay &&
+      setTimeout(() => {
+        nextSlide();
+      }, 3000);
+  });
 
   // Function for dots control
   const goToSlide = (imgIndex) => {
@@ -40,7 +39,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="flex xl:flex-row flex-col justify-center w-full relative group px-4 md:px-0 group"
+      className="flex xl:flex-row flex-col justify-center w-full relative group px-4 md:px-0"
       onMouseEnter={() => {
         setAutoPlay(false);
         clearTimeout(timeOut);
@@ -55,7 +54,7 @@ const Hero = () => {
         className="w-full h-full bg-center bg-cover duration-700 ease-in-out md:rounded-none rounded min-h-screen"
       >
         {/* Background Overlay */}
-        <div className="absolute insert-0 w-full h-screen bg-gray-900 bg-opacity-50 z-0"></div>
+        <div className="absolute mr-4 inset-0 w-full h-screen bg-center bg-cover bg-gray-900 bg-opacity-50 md:rounded-none rounded"></div>
 
         {/* Hero Text */}
         <div className="absolute top-[37%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
