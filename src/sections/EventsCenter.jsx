@@ -38,7 +38,7 @@ const EventsCenter = () => {
         <div className="mr-4 inset-0 w-full h-screen bg-center bg-cover bg-gray-900 bg-opacity-50 md:rounded-none rounded"></div>
 
         {/* Section Text */}
-        <div className="absolute md:top-[20%] top-[37%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
+        <div className="absolute md:top-[30%] top-[37%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
           <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
             Events Center.
           </h1>
