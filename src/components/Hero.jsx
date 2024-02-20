@@ -54,7 +54,7 @@ const Hero = () => {
         className="w-full h-full bg-center bg-cover duration-700 ease-in-out md:rounded-none rounded min-h-screen"
       >
         {/* Background Overlay */}
-        <div className="absolute mr-4 inset-0 w-full h-screen bg-center bg-cover bg-gray-900 bg-opacity-50 md:rounded-none rounded"></div>
+        <div className="mr-4 inset-0 w-full h-screen bg-center bg-cover bg-gray-900 bg-opacity-50 md:rounded-none rounded"></div>
 
         {/* Hero Text */}
         <div className="absolute top-[37%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">

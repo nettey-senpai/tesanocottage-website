@@ -35,16 +35,19 @@ const EventsCenter = () => {
         className="w-full h-full bg-center bg-cover duration-700 ease-in-out md:rounded-none rounded min-h-screen"
       >
         {/* Background Overlay */}
-        <div className="absolute insert-0 w-full h-full min-h-screen bg-gray-900 bg-opacity-50 z-0"></div>
+        <div className="mr-4 inset-0 w-full h-screen bg-center bg-cover bg-gray-900 bg-opacity-50 md:rounded-none rounded"></div>
 
-        {/* Hero Text */}
-        <div className="absolute top-[20%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
+        {/* Section Text */}
+        <div className="absolute md:top-[20%] top-[27%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
           <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
             Events Center.
           </h1>
         </div>
 
-        <Button styles= "z-20" label=  />
+        <Button
+          styles="absolute top-[45%] md:left-[45%] left-[40%] z-20 text-white outline outline-2 outline-offset-2 rounded-[50px]"
+          label="View more"
+        />
       </div>
     </section>
   );
