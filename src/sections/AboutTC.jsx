@@ -22,7 +22,7 @@ const AboutTC = () => (
         rooms to serviced/unserviced rooms, making it ideal for long-stay
         guests.
       </p>
-      <p className={`${styles.paragraph} max-w-[570px] mt-5 font`}>
+      <p className={`${styles.paragraph} max-w-[570px] mt-5`}>
         Banquets, weddings, birthday parties, and other ceremonial gatherings
         are all catered for by our expert personnel.
       </p>
