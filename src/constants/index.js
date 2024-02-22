@@ -1,4 +1,4 @@
-import { dome1, dome2, dome3, lobby, room4 } from "../assets/images";
+import { dome1, dome2, dome3, dome4, food1, lobby, room4, room5 } from "../assets/images";
 
 export const navLinks = [
   { href: "./App.jsx", label: "Home" },
@@ -27,5 +27,20 @@ export const homeEvents = [
   },
   {
     img: dome3,
+  },
+];
+
+export const views = [
+  {
+      img: room5,
+      label: "Rooms",
+  },
+  {
+      img: food1,
+      label: "Restaurant",
+  },
+  {
+      img: dome4,
+      label: "Events",
   },
 ];
