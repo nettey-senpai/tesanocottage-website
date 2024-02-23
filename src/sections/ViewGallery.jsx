@@ -18,7 +18,7 @@ const ViewGallery = () => (
     </div>
 
     {/* Button */}
-    <div className="flex justify-center mt-10 ">
+    <div className="flex justify-center mt-10 mb-10 ">
       <Button
         styles="text-red rounded-[10px] font-montserrat font-medium text-[18px] hover:before:bg-redborder-red-500 relative h-[60px] 
         w-40 overflow-hidden border border-red-500 bg-white px-3 text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 

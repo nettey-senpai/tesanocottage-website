@@ -13,11 +13,11 @@ const Footer = () => (
           alt="tesano cottage"
           className="object-contain"
           width={350}
-        
         />
-        <p className={`${styles.paragraph} max-w-[310px]`}>
+        <p className={`${styles.paragraph} max-w-[410px]`}>
           Tesano Cottage is a haven for those who appreciate comfort and
-          privacy.
+          privacy. Experience service that is professional, friendly, and
+          attentive.
         </p>
       </div>
     </div>
