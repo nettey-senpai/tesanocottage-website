@@ -7,7 +7,7 @@ const ViewsCard = ({ img, label }) => {
           <img
             src={img}
             alt={label}
-            className="w-[400px] h-[280px] object-cover hover:scale-125 transition ease-in duration-1000 hover:brightness-50"
+            className="w-[400px] h-[280px] object-cover hover:scale-125 transition ease-in duration-1000 hover:brightness-75"
           />
         </div>
         {/* Text */}

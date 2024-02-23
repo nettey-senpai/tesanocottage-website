@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import footerLogo from "./footerLogo.svg";
 import dome1 from "./dome1.jpg";
 import dome2 from "./dome2.jpg";
 import dome3 from "./dome3.jpg";
@@ -12,4 +13,5 @@ import room5 from "./room5.jpg";
 import about from "./about.jpg";
 import food1 from "./food1.jpg";
 
-export { logo, dome1, dome2, dome3, dome4, lobby, room1, room2, room3, room4, room5, about, food1 };
+
+export { logo, footerLogo, dome1, dome2, dome3, dome4, lobby, room1, room2, room3, room4, room5, about, food1 };

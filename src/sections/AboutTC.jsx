@@ -6,7 +6,6 @@ const AboutTC = () => (
   <section
     className={`${layout.section} ${styles.paddingX} ${styles.paddingY}`}
   >
-    `}>
     {/* left side */}
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
