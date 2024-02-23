@@ -3,7 +3,10 @@ import Button from "../components/Button";
 import styles, { layout } from "../style";
 
 const AboutTC = () => (
-  <section className={`${layout.section} ${styles.paddingX}`}>
+  <section
+    className={`${layout.section} ${styles.paddingX} ${styles.paddingY}`}
+  >
+    `}>
     {/* left side */}
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
@@ -26,9 +29,16 @@ const AboutTC = () => (
         Banquets, weddings, birthday parties, and other ceremonial gatherings
         are all catered for by our expert personnel.
       </p>
-      <Button styles="mt-10 bg-pomo-red hover:bg-red-600 rounded-[10px] text-white" label="Read More" />
-    </div>
 
+      {/* Button */}
+      <div className="flex mt-10 mb-10">
+        <Button
+          styles="rounded-[10px] relative h-14 w-40 overflow-hidden border border-pomo-red text-pomo-red shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-pomo-red before:duration-300 before:ease-out hover:text-white hover:shadow-pomo-red hover:before:h-40 hover:before:w-40 hover:before:opacity-80"
+          label="Read More"
+          SpanStyles="relative z-10"
+        />
+      </div>
+    </div>
     {/* Right side */}
     <div className={`${layout.sectionImg} overflow-hidden`}>
       <img
