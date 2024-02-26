@@ -55,18 +55,20 @@ const Footer = () => (
       </div>
     </div>
 
+    {/* Copyright text */}
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
       <p className="font-montserrat font-normal text-center text-[14px] leading-[27px] text-white mt-4 mb-6">
         Copyright © Tesano Cottage
       </p>
 
+      {/* Social Media Icons */}
       <div className="flex flex-row md:mt-0 mt-6">
         {socialMedia.map((social) => (
           <img
             key={social.id}
             src={social.icon}
             alt={social.id}
-            className="w-[21px] h-[21px] object-contain cursor-pointer mr-6 last:mr-0 md:mb-0 mb-6"
+            className="w-[21px] h-[21px] object-contain cursor-pointer hover:text-pomo-red mr-6 last:mr-0 md:mb-0 mb-6"
           />
         ))}
       </div>
