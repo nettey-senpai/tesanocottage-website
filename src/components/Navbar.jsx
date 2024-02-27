@@ -2,11 +2,14 @@ import { logo } from "../assets/images";
 import { useState } from "react";
 import { close, menu } from "../assets/icons";
 import { Link } from "react-router-dom";
+import styles from "../style";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex justify-between items-center navbar">
+    <nav
+      className={`${styles.paddingX} ${styles.flexCenter} w-full flex justify-between items-center navbar`}
+    >
       <img
         src={logo}
         alt="tesanocottage"
@@ -80,22 +83,22 @@ const Navbar = () => {
           } bg-white absolute w-full h-full bottom-0 py-24 pl-4`}
         >
           <ul className="list-none flex flex-col justify-end items-center flex-1">
-            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+            <li className="font-montserrat font-normal cursor-pointer mb-4 text-lg text-slate-gray hover:text-pomo-red">
               <Link to="/">Home</Link>
             </li>
-            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+            <li className="font-montserrat font-normal cursor-pointer mb-4 text-lg text-slate-gray hover:text-pomo-red">
               <Link to="/rooms">Rooms</Link>
             </li>
-            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+            <li className="font-montserrat font-normal cursor-pointer mb-4 text-lg text-slate-gray hover:text-pomo-red">
               <Link to="/restaurant">Restaurant</Link>
             </li>
-            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+            <li className="font-montserrat font-normal cursor-pointer mb-4 text-lg text-slate-gray hover:text-pomo-red">
               <Link to="/gallery">Gallery</Link>
             </li>
-            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+            <li className="font-montserrat font-normal cursor-pointer mb-4 text-lg text-slate-gray hover:text-pomo-red">
               <Link to="/events">Events</Link>
             </li>
-            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+            <li className="font-montserrat font-normal cursor-pointer mb-0 text-lg text-slate-gray hover:text-pomo-red">
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
