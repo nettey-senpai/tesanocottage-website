@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav
-      className={`${styles.paddingX} ${styles.flexCenter} w-full flex justify-between items-center navbar`}
+      className={`${styles.paddingX} ${styles.flexCenter} w-ful flex justify-between items-center navbar`}
     >
       <img
         src={logo}
@@ -17,7 +17,7 @@ const Navbar = () => {
       />
 
       {/* Navlinks for big screens */}
-      <ul className="list-none md:flex hidden justify-end items-center flex-1">
+      <ul className="list-none md:flex hidden justify-end items-centr flex-1">
         <li className="mr-10 last:mr-0">
           <Link
             to="/"
@@ -80,9 +80,9 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } bg-white absolute w-full h-full bottom-0 py-24 pl-4`}
+          } bg-white absolute w-full h-[65%] top-0 bottom-0 py-24 pl-4 origin-top`}
         >
-          <ul className="list-none flex flex-col justify-end items-center flex-1">
+          <ul className="relative list-none flex flex-col gap-4 items-center flex-1 pt-4">
             <li className="font-montserrat font-normal cursor-pointer mb-4 text-lg text-slate-gray hover:text-pomo-red">
               <Link to="/">Home</Link>
             </li>

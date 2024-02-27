@@ -39,7 +39,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="flex xl:flex-row flex-col justify-center w-full relative group px-4 md:px-0"
+      className="flex xl:flex-row flex-col justify-center w-full  group px-4 md:px-0 z-auto"
       onMouseEnter={() => {
         setAutoPlay(false);
         clearTimeout(timeOut);
@@ -55,21 +55,21 @@ const Hero = () => {
       >
         {/* Background Overlay */}
         <div className="mr-4 inset-0 w-full h-screen bg-center bg-cover bg-gray-900 bg-opacity-50 md:rounded-none rounded"></div>
-
+        
         {/* Hero Text */}
-        <div className="absolute top-[37%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
+        <div className="absolute md:top-[37%] top-[60%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-auto">
           <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
             A Memorable Experience.
           </h1>
         </div>
 
         {/* left arraow */}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 traslate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-white/60 text-black cursor-pointer z-20">
+        <div className="hidden group-hover:block absolute md:top-[50%] top-[70%] -translate-x-0 traslate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-white/60 text-black cursor-pointer z-auto">
           <BsChevronCompactLeft size={30} onClick={prevSlide} />
         </div>
 
         {/* Right arraow */}
-        <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 traslate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-white/60 text-black cursor-pointer z-20">
+        <div className="hidden group-hover:block absolute md:top-[50%] top-[70%] -translate-x-0 traslate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-white/60 text-black cursor-pointer z-auto">
           <BsChevronCompactRight size={30} onClick={nextSlide} />
         </div>
       </div>
