@@ -1,7 +1,7 @@
-import { navLinks } from "../constants";
 import { logo } from "../assets/images";
 import { useState } from "react";
 import { close, menu } from "../assets/icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,17 +13,56 @@ const Navbar = () => {
         className="z-50 w-[224px] h-[100px] pr-10 cursor-pointer"
       />
 
+      {/* Navlinks for big screens */}
       <ul className="list-none md:flex hidden justify-end items-center flex-1">
-        {navLinks.map((nav) => (
-          <li key={nav.label} className="mr-10 last:mr-0">
-            <a
-              href={`${nav.href}`}
-              className="font-montserrat font-normal leading-normal text-lg text-slate-gray hover:text-pomo-red"
-            >
-              {nav.label}
-            </a>
-          </li>
-        ))}
+        <li className="mr-10 last:mr-0">
+          <Link
+            to="/"
+            className="font-montserrat font-normal leading-normal text-lg text-slate-gray hover:text-pomo-red"
+          >
+            Home
+          </Link>
+        </li>
+        <li className="mr-10 last:mr-0">
+          <Link
+            to="/rooms"
+            className="font-montserrat font-normal leading-normal text-lg text-slate-gray hover:text-pomo-red"
+          >
+            Rooms
+          </Link>
+        </li>
+        <li className="mr-10 last:mr-0">
+          <Link
+            to="/restaurant"
+            className="font-montserrat font-normal leading-normal text-lg text-slate-gray hover:text-pomo-red"
+          >
+            Restaurant
+          </Link>
+        </li>
+        <li className="mr-10 last:mr-0">
+          <Link
+            to="/gallery"
+            className="font-montserrat font-normal leading-normal text-lg text-slate-gray hover:text-pomo-red"
+          >
+            Gallery
+          </Link>
+        </li>
+        <li className="mr-10 last:mr-0">
+          <Link
+            to="/events"
+            className="font-montserrat font-normal leading-normal text-lg text-slate-gray hover:text-pomo-red"
+          >
+            Events
+          </Link>
+        </li>
+        <li className="mr-10 last:mr-0">
+          <Link
+            to="/contact"
+            className="font-montserrat font-normal leading-normal text-lg text-slate-gray hover:text-pomo-red"
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* smaller screens */}
@@ -41,14 +80,24 @@ const Navbar = () => {
           } bg-white absolute w-full h-full bottom-0 py-24 pl-4`}
         >
           <ul className="list-none flex flex-col justify-end items-center flex-1">
-            {navLinks.map((nav) => (
-              <li
-                key={nav.label}
-                className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red"
-              >
-                <a href={`#${nav.href}`}>{nav.label}</a>
-              </li>
-            ))}
+            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+              <Link to="/rooms">Rooms</Link>
+            </li>
+            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+              <Link to="/restaurant">Restaurant</Link>
+            </li>
+            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+              <Link to="/gallery">Gallery</Link>
+            </li>
+            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+              <Link to="/events">Events</Link>
+            </li>
+            <li className="font-montserrat font-normal cursor-pointer mb-4 last:mb-0 text-lg text-slate-gray hover:text-pomo-red">
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
       </div>
