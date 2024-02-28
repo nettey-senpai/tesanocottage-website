@@ -22,9 +22,9 @@ const RoomCard = ({ img, title, bath, bed, people, price }) => (
     {/* Room Info */}
     <div className="pl-20 md:pb-0 pb-20">
       <ul className={`list-disc ${styles.paragraph} pt-6`}>
-        <li>{bath}</li>
         <li>{bed}</li>
-        <li>{people}</li>
+        <li>{bath}</li>
+        <li>Max occupancy: {people}</li>
       </ul>
 
       <div className="flex flex-1 justify-between md:last:pr-20">
