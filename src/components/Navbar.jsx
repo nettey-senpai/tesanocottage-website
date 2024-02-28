@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav
-      className={`${styles.paddingX} ${styles.flexCenter} w-ful flex justify-between items-center navbar`}
+      className={`${styles.paddingX} ${styles.flexCenter} w-full flex justify-between items-center navbar`}
     >
       <img
         src={logo}

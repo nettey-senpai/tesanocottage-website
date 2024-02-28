@@ -1,4 +1,4 @@
-const Button = ({ styles, label, SpanStyles }) => {
+const Button = ({ styles, label, SpanStyles}) => {
   return (
     <button
       type="button"

@@ -7,12 +7,16 @@ import {
   tiktok,
 } from "../assets/icons";
 import {
+  about,
   dome1,
   dome2,
   dome3,
   dome4,
   food1,
+  frontDesk,
   lobby,
+  room1,
+  room2,
   room4,
   room5,
 } from "../assets/images";
@@ -128,3 +132,33 @@ export const socialMedia = [
     link: "https://www.tiktok.com/",
   },
 ];
+
+export const gallery = [
+  {
+    img: about
+  },
+  {
+    img: dome1
+  },
+  {
+    img: food1
+  },
+  {
+    img: frontDesk
+  },
+  {
+    img: room1
+  },
+  {
+    img: dome2
+  },
+  {
+    img: lobby
+  },
+  {
+    img: room2
+  },
+  {
+    img: dome3
+  },
+]
