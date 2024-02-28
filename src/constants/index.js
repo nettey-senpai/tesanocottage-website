@@ -17,6 +17,7 @@ import {
   lobby,
   room1,
   room2,
+  room3,
   room4,
   room5,
 } from "../assets/images";
@@ -161,4 +162,29 @@ export const gallery = [
   {
     img: dome3
   },
-]
+];
+
+export const roomHero = [
+  {
+    img: room4
+  }
+];
+
+export const rooms = [
+  {
+    img: room3,
+    title: "Standard Room",
+    bath: "1 bathroom" ,
+    bed: "1 bed",
+    people: "2 people",
+    price: "Price",
+  },
+  {
+    img: room4,
+    title: "Classic Standard Room",
+    bath:"1 bathroom" ,
+    bed: "1 bed",
+    people: "2 people",
+    price: "Price",
+  },
+];
