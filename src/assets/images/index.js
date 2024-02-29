@@ -13,7 +13,10 @@ import room5 from "./room5.jpg";
 import about from "./about.jpg";
 import food1 from "./food1.jpg";
 import frontDesk from "./frontDesk.jpg";
+import contactUs from "./contactUs.jpg";
+import contactSec from "./contactSec.jpg";
 
 
 
-export { logo, footerLogo, dome1, dome2, dome3, dome4, lobby, room1, room2, room3, room4, room5, about, food1, frontDesk };
+
+export { logo, footerLogo, dome1, dome2, dome3, dome4, lobby, room1, room2, room3, room4, room5, about, food1, frontDesk, contactUs, contactSec };

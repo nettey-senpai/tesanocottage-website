@@ -8,6 +8,7 @@ import {
 } from "../assets/icons";
 import {
   about,
+  contactUs,
   dome1,
   dome2,
   dome3,
@@ -21,7 +22,6 @@ import {
   room4,
   room5,
 } from "../assets/images";
-
 
 export const hero = [
   {
@@ -136,45 +136,48 @@ export const socialMedia = [
 
 export const gallery = [
   {
-    img: about
+    img: about,
   },
   {
-    img: dome1
+    img: dome1,
   },
   {
-    img: food1
+    img: food1,
   },
   {
-    img: frontDesk
+    img: frontDesk,
   },
   {
-    img: room1
+    img: room1,
   },
   {
-    img: dome2
+    img: dome2,
   },
   {
-    img: lobby
+    img: lobby,
   },
   {
-    img: room2
+    img: room2,
   },
   {
-    img: dome3
+    img: dome3,
   },
 ];
 
-export const roomHero = [
+export const Heros = [
   {
-    img: room4
-  }
+    img: room4,
+  },
+  {
+    img: contactUs,
+  },
 ];
 
 export const rooms = [
   {
     img: room3,
     title: "Standard Room",
-    bath: "1 bathroom" ,
+    bath: "1 bathroom",
     bed: "1 bed",
     people: "2 people",
     price: "Price",
@@ -182,7 +185,7 @@ export const rooms = [
   {
     img: room4,
     title: "Classic Standard Room",
-    bath:"1 bathroom" ,
+    bath: "1 bathroom",
     bed: "1 bed",
     people: "2 people",
     price: "Price",

@@ -1,12 +1,12 @@
 import RoomCard from "../components/RoomCard";
-import { roomHero, rooms } from "../constants";
+import { Heros, rooms } from "../constants";
 import styles from "../style";
 
 const RoomSection = () => (
   <section className="flex xl:flex-row flex-col justify-center w-full  group px-4 md:px-0 z-auto">
     {/* Hero */}
     <div
-      style={{ backgroundImage: `url(${roomHero[0].img})` }}
+      style={{ backgroundImage: `url(${Heros[0].img})` }}
       className="w-full md:h-[300px] h-full bg-center bg-cover duration-700 ease-in-out md:rounded-none rounded "
     >
       {/* Background Overlay */}
