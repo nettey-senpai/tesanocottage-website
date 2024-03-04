@@ -1,7 +1,7 @@
-const Button = ({ styles, label, SpanStyles}) => {
+const Button = ({ styles, label, SpanStyles, type}) => {
   return (
     <button
-      type="button"
+      type={type}
       className={`py-4 px-6 font-montserrat font-medium text-[18px] ${styles}`}
     ><span className={`${SpanStyles}`}>{label}</span>
     </button>

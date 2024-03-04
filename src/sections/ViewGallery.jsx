@@ -26,6 +26,7 @@ const ViewGallery = () => (
         before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-red-500 hover:before:left-0 hover:before:w-full"
         label="View Gallery"
         SpanStyles="relative z-10"
+        type="button"
       />
       </Link>
     </div>

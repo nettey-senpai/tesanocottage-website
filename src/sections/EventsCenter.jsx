@@ -48,6 +48,7 @@ const EventsCenter = () => {
           styles="absolute top-[55%] md:left-[45%] left-[40%] z-20 text-white outline outline-2 outline-offset-2 rounded-[50px] hover:animate-bounce"
           label="View more"
           SpanStyles="relative z-10"
+          type="button"
         />
       </div>
     </section>

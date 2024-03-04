@@ -51,6 +51,7 @@ const OurRooms = () => (
           styles="relative rounded-[10px] h-[60px] w-40 overflow-hidden border border-pomo-red bg-white text-pomo-red shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-full before:w-0 before:duration-500 after:absolute after:right-0 after:top-0 after:h-full after:w-0 after:duration-500 hover:text-white hover:shadow-pomo-red hover:before:w-2/4 hover:before:bg-pomo-red hover:after:w-2/4 hover:after:bg-pomo-red"
           label="See More"
           SpanStyles="relative z-10"
+          type="button"
         /></Link>
       </div>
     </div>
