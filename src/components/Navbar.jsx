@@ -73,14 +73,14 @@ const Navbar = () => {
         <img
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px] object-contain z-50"
+          className="w-[28px] h-[28px] object-contain z-50 cursor-pointer"
           onClick={() => setToggle((prev) => !prev)}
         />
 
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } bg-white absolute w-full h-[65%] top-0 bottom-0 py-24 pl-4 origin-top`}
+          } bg-white absolute w-full h-[65%] top-0 bottom-0 py-24 pl-4 origin-top `}
         >
           <ul className="relative list-none flex flex-col gap-4 items-center flex-1 pt-4">
             <li className="font-montserrat font-normal cursor-pointer mb-4 text-lg text-slate-gray hover:text-pomo-red">
