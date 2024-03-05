@@ -39,7 +39,7 @@ const OurRooms = () => (
       <p
         className={`${styles.paragraph} max-w-[570px] mt-5 md:pl-20 text-center md:text-balance`}
       >
-        Experience comfort and simplicity in our guest house's standard rooms.
+        Experience comfort and simplicity in our guest house’s standard rooms.
         Each room is designed for a cozy and delightful stay. Enjoy modern
         amenities and a warm atmosphere. Book now for a memorable retreat in our
         charming guest house.
