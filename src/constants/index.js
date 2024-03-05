@@ -14,8 +14,10 @@ import {
   dome3,
   dome4,
   dome5,
+  dome7,
   event1,
   event2,
+  event3,
   food1,
   frontDesk,
   lobby,
@@ -44,6 +46,12 @@ export const homeEvents = [
   },
   {
     img: dome3,
+  },
+  {
+    img: event3,
+  },
+  {
+    img: dome7,
   },
 ];
 
