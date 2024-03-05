@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 import styles from "../style";
@@ -45,7 +46,9 @@ const Footer = () => (
                         link.icon ? "block" : "hidden"
                       } cursor-text`}
                     />
+                    <Link to={link.path}>
                     <span>{link.name}</span>
+                    </Link>
                   </a>
                 </li>
               ))}

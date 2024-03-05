@@ -76,18 +76,23 @@ export const footerLinks = [
     links: [
       {
         name: "Rooms",
+        path: "/rooms",
       },
       {
         name: "Restaurant",
+        path: "/restaurant",
       },
       {
         name: "Gallery",
+        path: "/gallery",
       },
       {
         name: "Events",
+        path: "/events",
       },
       {
         name: "Contact",
+        path: "/contact",
       },
     ],
   },
