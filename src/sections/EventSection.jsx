@@ -2,7 +2,7 @@ import { dome5, event3 } from "../assets/images";
 import styles, { layout } from "../style";
 
 const EventSection = () => (
-  <section className={`${styles.paddingX} pt-[200px] lg:px-2 px-4`}>
+  <section className={`pt-[200px] lg:px-2 px-4`}>
     {/* Title */}
     <div className="text-center pb-10">
       <h2 className="font-palanquin font-medium text-pomo-red text-center ss:text-[62px] text-[52px] ss:leading-[100px] leading-[75px]">
@@ -44,7 +44,7 @@ const EventSection = () => (
       </div>
     </div>
 
-    <div className={`${layout.section} ${styles.paddingX}`}>
+    <div className={`${layout.section} ${styles.paddingX} pb-[80px]`}>
       {/* Left Side */}
       <div className="flex-1">
         <p className="font-semibold font-montserrat text-[15px] leading-[30.8px]">
