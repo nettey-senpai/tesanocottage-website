@@ -79,10 +79,6 @@ export const footerLinks = [
         path: "/rooms",
       },
       {
-        name: "Restaurant",
-        path: "/restaurant",
-      },
-      {
         name: "Gallery",
         path: "/gallery",
       },
