@@ -4,9 +4,17 @@ import styles, { layout } from "../style";
 import { Button } from "../components";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import Swal from "sweetalert2";
 
 const ContactSection = () => {
   const form = useRef();
+  const handleClick = () => {
+    Swal.fire({
+      title: "Sucess!",
+      text: "Message Sent!",
+      icon: "success",
+    });
+  };
 
   // function for sending email
   const sendEmail = (e) => {
@@ -136,6 +144,7 @@ const ContactSection = () => {
                 label="Submit"
                 SpanStyles="relative z-10"
                 type="submit"
+                onClick={handleClick}
               />
             </div>
           </form>
