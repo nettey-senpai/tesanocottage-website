@@ -1,8 +1,8 @@
-import { dome3, dome5, } from "../assets/images";
+import { dome3, dome5 } from "../assets/images";
 import styles, { layout } from "../style";
 
 const EventSection = () => (
-  <section className={`pt-[200px] lg:px-2 px-4`}>
+  <section className={`pt-[80px] lg:px-2 px-4`}>
     {/* Title */}
     <div className="text-center pb-10">
       <h2 className="font-palanquin font-medium text-pomo-red text-center ss:text-[62px] text-[52px] ss:leading-[100px] leading-[75px]">
@@ -32,17 +32,17 @@ const EventSection = () => (
         </p>
         <p className="max-w-[470px] font-montserrat">
           Whether you’re hosting a birthday bash, corporate event, or any
-          special celebration, Tesano Cottage Event Center transforms every occasion into a
-          captivating and joyous affair. Your guests will be enchanted by the
-          ambiance, leaving them with cherished memories of an exceptional
-          event.
+          special celebration, Tesano Cottage Event Center transforms every
+          occasion into a captivating and joyous affair. Your guests will be
+          enchanted by the ambiance, leaving them with cherished memories of an
+          exceptional event.
         </p>
       </div>
     </div>
 
     <div className={`${layout.section} ${styles.paddingX} pb-[80px]`}>
       {/* Left Side */}
-      <div className="flex-1">
+      <div className="flex-1 mt-[80px]">
         <p className="font-semibold font-montserrat text-[15px] leading-[30.8px]">
           Special Social Occasions
         </p>
@@ -50,17 +50,6 @@ const EventSection = () => (
           We offer ideal spaces to plan an occasion as unique as you are,
           whether you’re organizing a family party, wedding, anniversary, or
           anything else.
-        </p>
-        <br />
-
-        <p className="font-semibold font-montserrat text-[15px] leading-[30.8px]">
-          Product Launches
-        </p>
-        <p className="max-w-[470px] font-montserrat">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
-          quae laborum aut sint similique, libero voluptate neque quidem
-          consectetur at iste obcaecati accusantium labore placeat corrupti,
-          accusamus nisi veritatis totam!
         </p>
       </div>
 
@@ -80,9 +69,11 @@ const EventSection = () => (
         Planning A Special Event?
       </h2>
       <p className="font-montserrat">
-        We are dedicated to creating memorable experiences for what is most important to you.
-        <br />
-
+        We are dedicated to creating memorable experiences for what is most
+        important to you.
+      </p>
+      <p className="font-montserrat text-slate-gray">
+        Contact Us on +233 53 495 7358
       </p>
     </div>
   </section>
