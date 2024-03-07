@@ -1,4 +1,4 @@
-import { dome5, event3 } from "../assets/images";
+import { dome3, dome5, } from "../assets/images";
 import styles, { layout } from "../style";
 
 const EventSection = () => (
@@ -14,7 +14,7 @@ const EventSection = () => (
       {/* Left side */}
       <div className={`${layout.sectionImg} md:pb-0 pb-[160px]`}>
         <img
-          src={event3}
+          src={dome3}
           alt="image"
           className="md:w-[70%] w-full h-full cursor-pointer object-cover shadow-2xl shadow-gray-400"
         />
@@ -22,24 +22,20 @@ const EventSection = () => (
 
       {/* Right Side */}
       <div className="flex-1 ">
-        <p className="font-semibold font-montserrat text-[15px] leading-[30.8px]">
-          Event Space
-        </p>
         <p className="md:max-w-[470px] font-montserrat">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
-          quae laborum aut sint similique, libero voluptate neque quidem
-          consectetur at iste obcaecati accusantium labore placeat corrupti,
-          accusamus nisi veritatis totam!
-        </p>
-        <br />
-        <p className="font-semibold font-montserrat text-[15px] leading-[30.8px]">
-          Gatherings
+          Welcome to Tesano Cottage Event Center, the ultimate event space
+          designed to elevate your parties and gatherings to unforgettable
+          heights. Nestled in the heart of the city, our contemporary venue
+          boasts a versatile and stylish atmosphere that caters to a variety of
+          occasions. With its spacious layout, our Event Center provides the
+          perfect canvas for creating magical moments.
         </p>
         <p className="max-w-[470px] font-montserrat">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
-          quae laborum aut sint similique, libero voluptate neque quidem
-          consectetur at iste obcaecati accusantium labore placeat corrupti,
-          accusamus nisi veritatis totam!
+          Whether you’re hosting a birthday bash, corporate event, or any
+          special celebration, Tesano Cottage Event Center transforms every occasion into a
+          captivating and joyous affair. Your guests will be enchanted by the
+          ambiance, leaving them with cherished memories of an exceptional
+          event.
         </p>
       </div>
     </div>
@@ -48,17 +44,17 @@ const EventSection = () => (
       {/* Left Side */}
       <div className="flex-1">
         <p className="font-semibold font-montserrat text-[15px] leading-[30.8px]">
-          Product Launches
+          Special Social Occasions
         </p>
         <p className="max-w-[470px] font-montserrat">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
-          quae laborum aut sint similique, libero voluptate neque quidem
-          consectetur at iste obcaecati accusantium labore placeat corrupti,
-          accusamus nisi veritatis totam!
+          We offer ideal spaces to plan an occasion as unique as you are,
+          whether you’re organizing a family party, wedding, anniversary, or
+          anything else.
         </p>
         <br />
+
         <p className="font-semibold font-montserrat text-[15px] leading-[30.8px]">
-          Private Events
+          Product Launches
         </p>
         <p className="max-w-[470px] font-montserrat">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
@@ -84,9 +80,9 @@ const EventSection = () => (
         Planning A Special Event?
       </h2>
       <p className="font-montserrat">
-        We are dedicated to creating memorable experiences so you can focus on
+        We are dedicated to creating memorable experiences for what is most important to you.
         <br />
-        what is most important to you.
+
       </p>
     </div>
   </section>
