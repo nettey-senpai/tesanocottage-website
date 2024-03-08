@@ -6,13 +6,16 @@ const Navbar = () => (
     <div className="relative z-20 border-b bg-white">
       <div className="px-6 md:px-12 lg:container md:mx-auto lg:px-6 md:py-4">
         <div className="flex items-center justify-between">
+          {/* Logo */}
           <div className="relative z-20">
             <Link to="/">
               <img src={logo} alt="TC logo" className="w-32" />
             </Link>
           </div>
 
+
           <div className="flex items-center justify-end border-l md:border-l-0">
+            {/* Hamburger/nav */}
             <input
               type="checkbox"
               name="hamburger"
@@ -34,8 +37,10 @@ const Navbar = () => (
               ></div>
             </label>
 
+            {/* side nav for smaller screen */}
             <div className="peer-checked:translate-x-0 fixed inset-0 w-[calc(100%-4.5rem)] translate-x-[-100%] bg-white shadow-xl transition duration-300 border-r md:border-r-0 md:w-auto lg:static md:shadow-none lg:translate-x-0">
               <div className="flex flex-col h-full md:flex-row justify-between md:items-center">
+                {/* Nav links */}
                 <ul className="px-6 pt-32 md:px-12 space-y-8 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
                   <li>
                     <Link

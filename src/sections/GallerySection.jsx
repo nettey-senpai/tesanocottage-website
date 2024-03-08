@@ -37,7 +37,7 @@ const GallerySection = () => {
   };
 
   return (
-    <section className={`${styles.paddingY} lg:px-2 px-4`}>
+    <section className={`${styles.paddingY} lg:px-2 px-4 mb-10`}>
       {/* Title */}
       <div className="text-center pb-10">
         <h2 className="font-palanquin font-medium text-pomo-red text-center ss:text-[62px] text-[52px] ss:leading-[100px] leading-[75px]">
@@ -77,11 +77,11 @@ const GallerySection = () => {
         )}
 
         {/* Image thumbnails */}
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-4 md:px-[148px] sm:px-[10px] px-6 cursor-pointer">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-4 md:px-[148px] sm:px-[10px] px-6">
           {gallery.map((gallery, index) => (
             <div key={index} onClick={() => handleOpenModal(index)}>
               <img
-                className="h-60 w-full max-w-full rounded-lg object-cover object-center"
+                className="h-60 w-full max-w-full rounded-lg object-cover object-center  cursor-pointer"
                 src={gallery.img}
                 alt="gallery-photo"
               />

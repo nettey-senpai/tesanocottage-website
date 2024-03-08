@@ -19,6 +19,10 @@ import {
   event2,
   event3,
   food1,
+  food2,
+  food3,
+  food4,
+  food6,
   frontDesk,
   lobby,
   room1,
@@ -163,10 +167,16 @@ export const gallery = [
     img: room1,
   },
   {
+    img: food4,
+  },
+  {
     img: dome2,
   },
   {
     img: lobby,
+  },
+  {
+    img: food2,
   },
   {
     img: room2,
@@ -175,10 +185,16 @@ export const gallery = [
     img: dome3,
   },
   {
+    img: food3,
+  },
+  {
     img: event1,
   },
   {
     img: dome5,
+  },
+  {
+    img: food6,
   },
   {
     img: event2,
