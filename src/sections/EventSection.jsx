@@ -12,7 +12,7 @@ const EventSection = () => (
 
     <div className={`${layout.section} md:px-2 sm:px-[100px] px-6`}>
       {/* Left side */}
-      <div className={`${layout.sectionImg} md:pb-0 pb-[160px]`}>
+      <div className={`${layout.sectionImg} md:pb-0 pb-[80px]`}>
         <img
           src={dome3}
           alt="image"

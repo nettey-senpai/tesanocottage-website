@@ -125,7 +125,7 @@ export const footerLinks = [
         icon: phone,
       },
       {
-        name: "10 West Tesano Drive (Off Cliff Street)Accra, Ghana. Digital Address : GA-255-5896",
+        name: "West Tesano Drive/Dzagblekai St Accra, Ghana. Digital Address : GA-255-5896",
         icon: location,
       },
     ],

@@ -15,13 +15,13 @@ const AboutTC = () => (
       <p className={`${styles.paragraph} max-w-[570px] mt-5`}>
         Tesano Cottage is a guest house, bar & grill, and events center located
         in the heart of Ghana’s capital. Tesano Cottage is located 20 minutes
-        from Kotoka International Airport and 15 minutes from the Central
+        from Kotoka International Airport and 15 minutes from the Accra Central
         Business District and Government Ministries. Perfect for a work travel
         or vacation.
       </p>
       <p className={`${styles.paragraph} max-w-[570px] mt-5`}>
         Tesano Cottage provides accommodation options ranging from standard
-        rooms to serviced/unserviced rooms, making it ideal for long-stay
+        rooms to serviced rooms, making it ideal for long-stay
         guests.
       </p>
       <p className={`${styles.paragraph} max-w-[570px] mt-5`}>
