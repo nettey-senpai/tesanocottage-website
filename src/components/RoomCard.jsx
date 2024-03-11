@@ -27,10 +27,8 @@ const RoomCard = ({ img, title, bath, bed, people, price }) => (
         <li>Max occupancy: {people}</li>
       </ul>
 
-      <div className="flex flex-1 justify-between md:last:pr-20">
-        <p className="font-montserrat font-semibold text-pomo-red pt-6">
-          {price}
-        </p>
+      <div className="flex flex-1 justify-between md:last:pr-20 pt-12">
+        <p className="font-montserrat font-semibold text-pomo-red">{price}</p>
 
         <Button
           label="View more"
