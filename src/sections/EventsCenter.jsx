@@ -39,19 +39,19 @@ const EventsCenter = () => {
         <div className="mr-4 inset-0 w-full h-screen bg-center bg-cover bg-gray-900 bg-opacity-50 md:rounded-none rounded"></div>
 
         {/* Section Text */}
-        <div className="absolute md:top-[30%] top-[37%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
+        <div className="absolute md:top-[30%] top-[30%] right-[0%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
           <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
             Events Center.
           </h1>
         </div>
 
         <Link to="/events">
-        <Button
-          styles="absolute top-[55%] md:left-[45%] left-[40%] z-20 text-white outline outline-2 outline-offset-2 rounded-[50px] hover:animate-bounce"
-          label="View more"
-          SpanStyles="relative z-10"
-          type="button"
-        />
+          <Button
+            styles="absolute top-[55%] md:left-[45%] left-[33%] z-20 text-white outline outline-2 outline-offset-2 rounded-[50px] hover:animate-bounce"
+            label="View more"
+            SpanStyles="relative z-10"
+            type="button"
+          />
         </Link>
       </div>
     </section>
