@@ -13,7 +13,7 @@ const RoomSection = () => (
       <div className="mr-4 inset-0 w-full md:h-[300px] h-screen bg-center bg-cover bg-gray-900 bg-opacity-50 md:rounded-none rounded"></div>
 
       {/* Section Text */}
-      <div className="absolute md:top-[15%] top-[55%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
+      <div className="absolute md:top-[15%] top-[55%] right-[0%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
         <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
           Our Rooms & Rates.
         </h1>
