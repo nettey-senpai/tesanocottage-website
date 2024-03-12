@@ -42,12 +42,12 @@ const Footer = () => (
                   <a className="flex flex-wrap">
                     <img
                       src={link.icon}
-                      className={`w-6 mr-2 ${
+                      className={`w-6 h-6 mr-2 ${
                         link.icon ? "block" : "hidden"
                       } cursor-text`}
                     />
-                    <Link to={link.path}>
-                    <span>{link.name}</span>
+                    <Link to={link.path} className="max-w-[330px]">
+                      <span>{link.name}</span>
                     </Link>
                   </a>
                 </li>

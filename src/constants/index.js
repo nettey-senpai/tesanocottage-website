@@ -19,6 +19,8 @@ import {
   event1,
   event2,
   event3,
+  event4,
+  event6,
   event7,
   food1,
   food2,
@@ -76,6 +78,24 @@ export const views = [
   {
     img: dome4,
     label: "Events",
+  },
+];
+
+export const eventSlides = [
+  {
+    img: dome5,
+  },
+  {
+    img: event6,
+  },
+  {
+    img: event2,
+  },
+  {
+    img: event1,
+  },
+  {
+    img: event4,
   },
 ];
 
