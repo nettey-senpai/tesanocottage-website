@@ -20,22 +20,19 @@ const AboutTC = () => (
       </p>
       <p className={`${styles.paragraph} max-w-[570px] mt-5`}>
         Tesano Cottage provides accommodation options ranging from standard
-        rooms to serviced rooms, making it ideal for long-stay
-        guests.
+        rooms to serviced rooms, making it ideal for long-stay guests.
       </p>
       <p className={`${styles.paragraph} max-w-[570px] mt-5`}>
         Banquets, weddings, birthday parties, and other ceremonial gatherings
         are all catered for by our expert personnel.
       </p>
-
-   
     </div>
     {/* Right side */}
     <div className={`${layout.sectionImg} overflow-hidden`}>
       <img
         src={about}
         alt="card"
-        className="w-[75%] h-[60%] hover:scale-125 transition ease-in-out duration-1000 cursor-pointer object-cover"
+        className="w-[100%] h-[60%] hover:scale-125 transition ease-in-out duration-1000 cursor-pointer object-cover"
       />
     </div>
   </section>
