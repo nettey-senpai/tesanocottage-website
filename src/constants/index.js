@@ -134,7 +134,7 @@ export const footerLinks = [
         name: "Tik Tok",
       },
       {
-        name: "Twitter",
+        name: "X (Twitter)",
       },
     ],
   },
