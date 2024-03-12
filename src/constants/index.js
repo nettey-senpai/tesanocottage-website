@@ -5,6 +5,7 @@ import {
   location,
   phone,
   tiktok,
+  twitterX,
 } from "../assets/icons";
 import {
   about,
@@ -18,6 +19,7 @@ import {
   event1,
   event2,
   event3,
+  event7,
   food1,
   food2,
   food3,
@@ -34,25 +36,28 @@ import {
 
 export const hero = [
   {
+    img: room4,
+  },
+  {
     img: dome1,
   },
   {
     img: lobby,
   },
-  {
-    img: room4,
-  },
 ];
 
 export const homeEvents = [
   {
-    img: dome2,
-  },
-  {
     img: dome3,
   },
   {
+    img: dome2,
+  },
+  {
     img: event3,
+  },
+  {
+    img: event7,
   },
   {
     img: dome7,
@@ -145,6 +150,11 @@ export const socialMedia = [
   },
   {
     id: "social-media-3",
+    icon: twitterX,
+    link: "https://www.twitter.com/",
+  },
+  {
+    id: "social-media-4",
     icon: tiktok,
     link: "https://www.tiktok.com/",
   },
