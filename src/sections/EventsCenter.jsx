@@ -41,7 +41,7 @@ const EventsCenter = () => {
         {/* Section Text */}
         <div className="absolute md:top-[30%] top-[30%] right-[0%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
           <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
-            Events Center.
+            Events Center
           </h1>
         </div>
 

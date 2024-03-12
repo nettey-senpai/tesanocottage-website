@@ -39,7 +39,7 @@ const Footer = () => (
                   key={link}
                   className="font-montserrat font-normal text-[14px] leading-[24px] text-white hover:text-pomo-red cursor-pointer mb-4 last:mb-0"
                 >
-                  <a className="flex flex-wrap">
+                  <a className="flex flex-wrap items-center">
                     <img
                       src={link.icon}
                       className={`w-6 h-6 mr-2 ${
