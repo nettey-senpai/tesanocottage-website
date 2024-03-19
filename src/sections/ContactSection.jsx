@@ -46,7 +46,7 @@ const ContactSection = () => {
         {/* Section Text */}
         <div className="absolute md:top-[15%] top-[55%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
           <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
-            Contact Us.
+            Contact Us
           </h1>
         </div>
       </div>
