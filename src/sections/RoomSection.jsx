@@ -1,12 +1,13 @@
+import { room1 } from "../assets/images";
 import RoomCard from "../components/RoomCard";
-import { Heros, rooms } from "../constants";
+import { rooms } from "../constants";
 import styles from "../style";
 
 const RoomSection = () => (
   <section className="flex xl:flex-row flex-col justify-center w-full  group px-4 md:px-0 z-auto">
     {/* Hero */}
     <div
-      style={{ backgroundImage: `url(${Heros[0].img})` }}
+      style={{ backgroundImage: `url(${room1})` }}
       className="w-full md:h-[300px] h-full bg-center bg-cover duration-700 ease-in-out md:rounded-none rounded "
     >
       {/* Background Overlay */}
@@ -15,7 +16,7 @@ const RoomSection = () => (
       {/* Section Text */}
       <div className="absolute md:top-[15%] top-[55%] right-[0%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
         <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
-          Our Rooms & Rates.
+          Our Rooms & Rates
         </h1>
       </div>
     </div>
