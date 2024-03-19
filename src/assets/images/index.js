@@ -10,16 +10,18 @@ import dome7 from "./dome7.jpg";
 import lobby from "./lobby.jpg";
 import room1 from "./room1.jpeg";
 import room2 from "./room2.jpeg";
+import room2a from "./room2a.jpeg";
 import room3 from "./room3.jpeg";
+import room3a from "./room3a.jpeg";
 import room4 from "./room4.jpeg";
 import room5 from "./room5.jpg";
 import about from "./about.jpg";
 import food1 from "./food1.jpg";
-import food2 from "./food2.jpg";
+import food2 from "./food2.png";
 import food3 from "./food3.jpg";
 import food4 from "./food4.jpeg";
 import food5 from "./food5.jpg";
-import food6 from "./food6.webp";
+import food6 from "./food6.jpg";
 import frontDesk from "./frontDesk.jpg";
 import contactUs from "./contactUs.jpg";
 import contactSec from "./contactSec.jpg";
@@ -44,7 +46,9 @@ export {
   lobby,
   room1,
   room2,
+  room2a,
   room3,
+  room3a,
   room4,
   room5,
   about,

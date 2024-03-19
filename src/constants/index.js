@@ -27,11 +27,12 @@ import {
   food3,
   food4,
   food6,
-  frontDesk,
   lobby,
   room1,
   room2,
+  room2a,
   room3,
+  room3a,
   room4,
   room5,
 } from "../assets/images";
@@ -188,28 +189,31 @@ export const gallery = [
     img: dome1,
   },
   {
-    img: food1,
-  },
-  {
-    img: frontDesk,
-  },
-  {
-    img: room1,
+    img: room4,
   },
   {
     img: food4,
   },
   {
+    img: room1,
+  },
+  {
+    img: room3a,
+  },
+  {
     img: dome2,
   },
   {
-    img: lobby,
+    img: room2,
+  },
+  {
+    img: event6,
   },
   {
     img: food2,
   },
   {
-    img: room2,
+    img: room3,
   },
   {
     img: dome3,
@@ -221,6 +225,12 @@ export const gallery = [
     img: event1,
   },
   {
+    img: room2a,
+  },
+  {
+    img: food1,
+  },
+  {
     img: dome5,
   },
   {
@@ -228,6 +238,9 @@ export const gallery = [
   },
   {
     img: event2,
+  },
+  {
+    img: event4,
   },
 ];
 
