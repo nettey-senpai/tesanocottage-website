@@ -49,7 +49,7 @@ const GallerySection = () => {
       <div>
         {/* Open Modal */}
         {openModal && (
-          <div className="fixed flex items-center justify-center w-[100%] h-[100%] top-[0] bottom-[0] left-[0] right-[0] bg-[#2f2e2e] z-10">
+          <div className="fixed flex items-center justify-center w-[100%] h-[100%] top-[0] bottom-[0] left-[0] right-[0] bg-[#2f2e2e] z-20">
             <FontAwesomeIcon
               icon={faCircleXmark}
               className="fixed cursor-pointer opacity-[0.6] hover:opacity-[1] text-white z-20 top-[10px] right-[40px]"
