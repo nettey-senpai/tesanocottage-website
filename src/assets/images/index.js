@@ -16,7 +16,7 @@ import room3a from "./room3a.jpeg";
 import room4 from "./room4.jpeg";
 import room5 from "./room5.jpeg";
 import about from "./about.jpg";
-import food1 from "./food1.jpg";
+import food1 from "./food1.jpeg";
 import food2 from "./food2.png";
 import food3 from "./food3.jpg";
 import food4 from "./food4.jpeg";
