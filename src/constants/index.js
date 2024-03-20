@@ -45,6 +45,9 @@ export const hero = [
     img: dome1,
   },
   {
+    img: food6,
+  },
+  {
     img: room1,
   },
 ];
