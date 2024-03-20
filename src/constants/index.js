@@ -7,6 +7,7 @@ import {
   tiktok,
   twitterX,
 } from "../assets/icons";
+
 import {
   about,
   contactUs,
@@ -27,7 +28,6 @@ import {
   food3,
   food4,
   food6,
-  lobby,
   room1,
   room2,
   room2a,
@@ -45,7 +45,7 @@ export const hero = [
     img: dome1,
   },
   {
-    img: lobby,
+    img: room1,
   },
 ];
 

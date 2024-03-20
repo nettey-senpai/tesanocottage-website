@@ -22,7 +22,6 @@ import food3 from "./food3.jpg";
 import food4 from "./food4.jpeg";
 import food5 from "./food5.jpg";
 import food6 from "./food6.jpg";
-import frontDesk from "./frontDesk.jpg";
 import contactUs from "./contactUs.jpg";
 import contactSec from "./contactSec.jpg";
 import event1 from "./event1.jpg";
@@ -58,7 +57,6 @@ export {
   food4,
   food5,
   food6,
-  frontDesk,
   contactUs,
   contactSec,
   event1,
