@@ -39,16 +39,16 @@ import {
 
 export const hero = [
   {
-    img: room4,
+    img: room1,
   },
   {
     img: dome1,
   },
   {
-    img: food6,
+    img: room4,
   },
   {
-    img: room1,
+    img: food6,
   },
 ];
 
