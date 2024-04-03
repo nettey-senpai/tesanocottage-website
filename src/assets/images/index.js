@@ -7,7 +7,6 @@ import dome4 from "./dome4.jpg";
 import dome5 from "./dome5.jpg";
 import dome6 from "./dome6.jpg";
 import dome7 from "./dome7.jpg";
-import lobby from "./lobby.jpg";
 import room1 from "./room1.jpeg";
 import room2 from "./room2.jpeg";
 import room2a from "./room2a.jpeg";
@@ -42,7 +41,6 @@ export {
   dome5,
   dome6,
   dome7,
-  lobby,
   room1,
   room2,
   room2a,
