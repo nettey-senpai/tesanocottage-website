@@ -169,7 +169,7 @@ const ContactSection = () => {
           </h2>
 
           <p className={`${styles.paragraph}`}>
-            10 West Tesano Drive (Off Cliff Street)Accra, Ghana
+          West Tesano Drive/Dzagblekai St Accra, Ghana. Digital Address : GA-255-5896
           </p>
           <p className={`${styles.paragraph} pb-6`}>
             Digitai Address: GA-255-5896
