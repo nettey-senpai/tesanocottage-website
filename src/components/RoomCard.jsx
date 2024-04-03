@@ -1,7 +1,20 @@
 import styles from "../style";
 import Button from "./Button";
 
-const RoomCard = ({ img, title, bath, bed, people, price }) => (
+const RoomCard = ({
+  img,
+  title,
+  bath,
+  bed,
+  people,
+  space,
+  price,
+  tv,
+  fridge,
+  kettle,
+  ac,
+  desk,
+}) => (
   <div>
     <div className="flex flex-1 flex-col mx-auto overflow-hidden object-contain max-w-[600px] max-h-[380px] bg-center bg-cover rounded">
       {/* Image */}
@@ -22,9 +35,15 @@ const RoomCard = ({ img, title, bath, bed, people, price }) => (
     {/* Room Info */}
     <div className="pl-20 md:pb-0 pb-20">
       <ul className={`list-disc ${styles.paragraph} pt-6`}>
+        <li className={`${space ? "block" : "hidden"}`}>{space}</li>
         <li>{bed}</li>
         <li>{bath}</li>
         <li>Max occupancy: {people}</li>
+        <li>{tv}</li>
+        <li>{fridge}</li>
+        <li>{kettle}</li>
+        <li>{ac}</li>
+        <li>{desk}</li>
       </ul>
 
       <div className="flex flex-1 justify-between md:last:pr-20 pt-12">
