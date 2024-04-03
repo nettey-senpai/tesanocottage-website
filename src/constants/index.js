@@ -263,7 +263,7 @@ export const rooms = [
     bath: "1 bathroom",
     bed: "1 bed",
     people: "2 people",
-    price: "Price",
+    price: "GH₵ 300",
   },
   {
     img: room4,
@@ -271,6 +271,6 @@ export const rooms = [
     bath: "1 bathroom",
     bed: "1 bed",
     people: "2 people",
-    price: "Price",
+    price: "GH₵ 400",
   },
 ];
