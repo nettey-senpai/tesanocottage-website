@@ -180,7 +180,7 @@ const ContactSection = () => {
             For reservations please call or email
           </h2>
           <p className={`${styles.paragraph} text-center`}>
-            Call us: +233 30 273 0335 / +233 55 783 8577
+            Call us: +233 50 600 3244 / +233 30 225 5891
           </p>
           <p className={`${styles.paragraph} text-center`}>
             info@tesanocottage.com
