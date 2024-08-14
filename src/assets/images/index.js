@@ -30,6 +30,20 @@ import event4 from "./event4.jpg";
 import event5 from "./event5.jpg";
 import event6 from "./event6.jpg";
 import event7 from "./event7.jpg";
+import event8 from "./event8.jpg";
+import event9 from "./event9.jpg";
+import event10 from "./event10.jpg";
+import event11 from "./event11.jpg";
+import event12 from "./event12.jpg";
+import event13 from "./event13.jpg";
+import event14 from "./event14.jpg";
+import event15 from "./event15.jpg";
+import event16 from "./event16.jpg";
+import event17 from "./event17.jpg";
+import event18 from "./event18.jpg";
+import event19 from "./event19.jpg";
+import event20 from "./event20.jpg";
+import event21 from "./event21.jpg";
 
 export {
   logo,
@@ -64,4 +78,18 @@ export {
   event5,
   event6,
   event7,
+  event8,
+  event9,
+  event10,
+  event11,
+  event12,
+  event13,
+  event14,
+  event15,
+  event16,
+  event17,
+  event18,
+  event19,
+  event20,
+  event21,
 };

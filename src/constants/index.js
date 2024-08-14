@@ -18,11 +18,25 @@ import {
   dome5,
   dome7,
   event1,
+  event10,
+  event11,
+  event12,
+  event13,
+  event14,
+  event15,
+  event16,
+  event17,
+  event18,
+  event19,
   event2,
+  event20,
+  event21,
   event3,
   event4,
   event6,
   event7,
+  event8,
+  event9,
   food1,
   food2,
   food3,
@@ -185,6 +199,48 @@ export const socialMedia = [
 ];
 
 export const gallery = [
+  {
+    img: event21,
+  },
+  {
+    img: event20,
+  },
+  {
+    img: event19,
+  },
+  {
+    img: event18,
+  },
+  {
+    img: event17,
+  },
+  {
+    img: event16,
+  },
+  {
+    img: event15,
+  },
+  {
+    img: event14,
+  },
+  {
+    img: event13,
+  },
+  {
+    img: event12,
+  },
+  {
+    img: event11,
+  },
+  {
+    img: event10,
+  },
+  {
+    img: event9,
+  },
+  {
+    img: event8,
+  },
   {
     img: about,
   },
