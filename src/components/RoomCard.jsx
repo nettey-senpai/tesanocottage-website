@@ -13,6 +13,7 @@ const RoomCard = ({
   fridge,
   kettle,
   ac,
+  waterHeater,
   desk,
 }) => (
   <div>
@@ -43,6 +44,7 @@ const RoomCard = ({
         <li>{fridge}</li>
         <li>{kettle}</li>
         <li>{ac}</li>
+        <li>{waterHeater}</li>
         <li>{desk}</li>
       </ul>
 

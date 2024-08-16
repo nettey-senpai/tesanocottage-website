@@ -334,8 +334,9 @@ export const rooms = [
     fridge: "Fridge",
     kettle: "Kettle",
     ac: "Air Condition",
+    waterHeater: "Water Heater",
     desk: "Writing Desk",
-    price: "GH₵ 300",
+    price: "GH₵ 350",
   },
   {
     img: room4,
@@ -348,7 +349,8 @@ export const rooms = [
     fridge: "Fridge",
     kettle: "Kettle",
     ac: "Air Condition",
+    waterHeater: "Water Heater",
     desk: "Writing Desk",
-    price: "GH₵ 350",
+    price: "GH₵ 400",
   },
 ];
