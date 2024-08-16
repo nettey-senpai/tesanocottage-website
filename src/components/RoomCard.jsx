@@ -39,7 +39,6 @@ const RoomCard = ({
         <li className={`${space ? "block" : "hidden"}`}>{space}</li>
         <li>{bed}</li>
         <li>{bath}</li>
-        <li>Max occupancy: {people}</li>
         <li>{tv}</li>
         <li>{fridge}</li>
         <li>{kettle}</li>

@@ -329,7 +329,6 @@ export const rooms = [
     title: "Standard Room",
     bath: "1 bathroom",
     bed: "1 bed",
-    people: "2 people",
     tv: "Flat Screen TV",
     fridge: "Fridge",
     kettle: "Kettle",
