@@ -17,6 +17,8 @@ import {
   dome4,
   dome5,
   dome7,
+  dome8,
+  dome9,
   event1,
   event10,
   event11,
@@ -199,6 +201,15 @@ export const socialMedia = [
 ];
 
 export const gallery = [
+  {
+    img: dome7,
+  },
+  {
+    img: dome8,
+  },
+  {
+    img: dome9,
+  },
   {
     img: event21,
   },
