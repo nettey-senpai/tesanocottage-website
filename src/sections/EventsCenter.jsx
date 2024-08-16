@@ -47,7 +47,7 @@ const EventsCenter = () => {
 
         <Link to="/events">
           <Button
-            styles="absolute top-[55%] md:left-[45%] left-[33%] z-20 text-white outline outline-2 outline-offset-2 rounded-[50px] hover:animate-bounce"
+            styles="absolute top-[55%] md:left-[45%] left-[33%] z-20 text-white outline outline-2 outline-offset-2 rounded-[10px] before:ease overflow-hidden transition-all before:absolute before:right-0 before:top-0 before:h-16 before:w-8 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-20 before:duration-700 hover:before:-translate-x-40"
             label="View more"
             SpanStyles="relative z-10"
             type="button"
