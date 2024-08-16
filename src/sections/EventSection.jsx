@@ -42,7 +42,7 @@ const EventSection = () => (
 
     <div className={`${layout.section} ${styles.paddingX} pb-[80px]`}>
       {/* Left Side */}
-      <div className="flex-1 mt-[80px]">
+      <div className="flex-1 mt-[20px]">
         <p className="font-semibold font-montserrat text-[15px] leading-[30.8px]">
           Special Social Occasions
         </p>
