@@ -169,10 +169,10 @@ const ContactSection = () => {
           </h2>
 
           <p className={`${styles.paragraph}`}>
-          West Tesano Drive/Dzagblekai St Accra, Ghana. Digital Address : GA-255-5896
+          West Tesano Drive/Dzagblekai St, Tesano Accra, Ghana.
           </p>
           <p className={`${styles.paragraph} pb-6`}>
-            Digitai Address: GA-255-5896
+            Digital Address: GA-255-5896
           </p>
 
           <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[3px] border-t-[#3F3E45]"></div>
