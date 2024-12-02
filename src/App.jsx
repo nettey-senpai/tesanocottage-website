@@ -4,6 +4,9 @@ import Rooms from "./pages/Rooms";
 import Gallery from "./pages/Gallery";
 import Events from "./pages/Events";
 import Contact from "./pages/Contact";
+import GuestHouse from "./pages/GuestHouse";
+import GalleryFB from "./pages/GalleryFB";
+import GalleryEvents from "./pages/GalleryEvents";
 import Layout from "./Layout";
 
 const App = () => (
@@ -15,6 +18,9 @@ const App = () => (
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/guesthouse" element={<GuestHouse />} />
+        <Route path="/galleryfb" element={<GalleryFB />} />
+        <Route path="/galleryevents" element={<GalleryEvents />} />
       </Route>
     </Routes>
   </Router>

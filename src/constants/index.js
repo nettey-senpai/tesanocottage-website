@@ -9,16 +9,12 @@ import {
 } from "../assets/icons";
 
 import {
-  about,
   contactUs,
   dome1,
   dome2,
   dome3,
   dome4,
   dome5,
-  dome7,
-  dome8,
-  dome9,
   event1,
   event10,
   event11,
@@ -26,15 +22,10 @@ import {
   event13,
   event14,
   event15,
-  event16,
-  event17,
-  event18,
-  event19,
   event2,
-  event20,
-  event21,
   event3,
   event4,
+  event5,
   event6,
   event7,
   event8,
@@ -43,7 +34,11 @@ import {
   food2,
   food3,
   food4,
+  food5,
   food6,
+  food7,
+  food8,
+  food9,
   room1,
   room2,
   room2a,
@@ -51,6 +46,9 @@ import {
   room3a,
   room4,
   room5,
+  room6,
+  room7,
+  room8,
 } from "../assets/images";
 
 export const hero = [
@@ -82,22 +80,25 @@ export const homeEvents = [
     img: event7,
   },
   {
-    img: dome7,
+    img: dome1,
   },
 ];
 
 export const views = [
   {
     img: room5,
-    label: "Rooms",
+    label: "Guest House",
+    link: "/guesthouse",
   },
   {
     img: food1,
-    label: "Restaurant",
+    label: "Food & Beverages",
+    link: "/galleryfb",
   },
   {
     img: dome4,
     label: "Events",
+    link: "/galleryevents",
   },
 ];
 
@@ -200,119 +201,245 @@ export const socialMedia = [
   },
 ];
 
-export const gallery = [
-  {
-    img: dome7,
-  },
-  {
-    img: dome8,
-  },
-  {
-    img: dome9,
-  },
-  {
-    img: event21,
-  },
-  {
-    img: event20,
-  },
-  {
-    img: event19,
-  },
-  {
-    img: event18,
-  },
-  {
-    img: event17,
-  },
-  {
-    img: event16,
-  },
-  {
-    img: event15,
-  },
-  {
-    img: event14,
-  },
-  {
-    img: event13,
-  },
-  {
-    img: event12,
-  },
-  {
-    img: event11,
-  },
-  {
-    img: event10,
-  },
-  {
-    img: event9,
-  },
-  {
-    img: event8,
-  },
-  {
-    img: about,
-  },
-  {
-    img: dome1,
-  },
-  {
-    img: room4,
-  },
-  {
-    img: food4,
-  },
+export const guesthouse = [
   {
     img: room1,
-  },
-  {
-    img: room3a,
-  },
-  {
-    img: dome2,
   },
   {
     img: room2,
   },
   {
-    img: event6,
-  },
-  {
-    img: food2,
+    img: room2a,
   },
   {
     img: room3,
   },
   {
+    img: room3a,
+  },
+  {
+    img: room4,
+  },
+  {
+    img: room5,
+  },
+  {
+    img: room6,
+  },
+  {
+    img: room7,
+  },
+  {
+    img: room8,
+  },
+];
+
+export const galleryevents = [
+  {
+    img: dome1,
+  },
+  {
+    img: dome2,
+  },
+  {
     img: dome3,
   },
   {
-    img: food3,
-  },
-  {
-    img: event1,
-  },
-  {
-    img: room2a,
-  },
-  {
-    img: food1,
+    img: dome4,
   },
   {
     img: dome5,
   },
   {
-    img: food6,
+    img: event1,
   },
   {
     img: event2,
   },
   {
+    img: event3,
+  },
+  {
     img: event4,
   },
+  {
+    img: event5,
+  },
+  {
+    img: event6,
+  },
+  {
+    img: event7,
+  },
+  {
+    img: event8,
+  },
+  {
+    img: event9,
+  },
+  {
+    img: event10,
+  },
+  {
+    img: event11,
+  },
+  {
+    img: event12,
+  },
+  {
+    img: event13,
+  },
+  {
+    img: event14,
+  },
+  {
+    img: event15,
+  },
 ];
+
+export const galleryfb = [
+  {
+    img: food1,
+  },
+  {
+    img: food2,
+  },
+  {
+    img: food3,
+  },
+  {
+    img: food4,
+  },
+  {
+    img: food5,
+  },
+  {
+    img: food6,
+  },
+  {
+    img: food7,
+  },
+  {
+    img: food8,
+  },
+  {
+    img: food9,
+  },
+];
+
+// export const gallery = [
+//   {
+//     img: dome7,
+//   },
+//   {
+//     img: dome8,
+//   },
+//   {
+//     img: dome9,
+//   },
+//   {
+//     img: event21,
+//   },
+//   {
+//     img: event20,
+//   },
+//   {
+//     img: event19,
+//   },
+//   {
+//     img: event18,
+//   },
+//   {
+//     img: event17,
+//   },
+//   {
+//     img: event16,
+//   },
+//   {
+//     img: event15,
+//   },
+//   {
+//     img: event14,
+//   },
+//   {
+//     img: event13,
+//   },
+//   {
+//     img: event12,
+//   },
+//   {
+//     img: event11,
+//   },
+//   {
+//     img: event10,
+//   },
+//   {
+//     img: event9,
+//   },
+//   {
+//     img: event8,
+//   },
+//   {
+//     img: about,
+//   },
+//   {
+//     img: dome1,
+//   },
+//   {
+//     img: room4,
+//   },
+//   {
+//     img: food4,
+//   },
+//   {
+//     img: room1,
+//   },
+//   {
+//     img: room3a,
+//   },
+//   {
+//     img: dome2,
+//   },
+//   {
+//     img: room2,
+//   },
+//   {
+//     img: event6,
+//   },
+//   {
+//     img: food2,
+//   },
+//   {
+//     img: room3,
+//   },
+//   {
+//     img: dome3,
+//   },
+//   {
+//     img: food3,
+//   },
+//   {
+//     img: event1,
+//   },
+//   {
+//     img: room2a,
+//   },
+//   {
+//     img: food1,
+//   },
+//   {
+//     img: dome5,
+//   },
+//   {
+//     img: food6,
+//   },
+//   {
+//     img: event2,
+//   },
+//   {
+//     img: event4,
+//   },
+// ];
 
 export const Heros = [
   {
