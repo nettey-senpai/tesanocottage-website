@@ -73,7 +73,7 @@ const EventSection = () => (
         important to you.
       </p>
       <p className="font-montserrat text-slate-gray">
-        Contact Us on +233 53 495 7358
+        Contact Us on +233 50 945 2883
       </p>
     </div>
   </section>
