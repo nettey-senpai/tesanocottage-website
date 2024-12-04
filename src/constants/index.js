@@ -49,6 +49,11 @@ import {
   room6,
   room7,
   room8,
+  drink1,
+  drink2,
+  drink3,
+  drink4,
+  drink5,
 } from "../assets/images";
 
 export const hero = [
@@ -91,7 +96,7 @@ export const views = [
     link: "/guesthouse",
   },
   {
-    img: food1,
+    img: food3,
     label: "Food & Beverages",
     link: "/galleryfb",
   },
@@ -305,10 +310,16 @@ export const galleryfb = [
     img: food2,
   },
   {
+    img: drink1,
+  },
+  {
     img: food3,
   },
   {
     img: food4,
+  },
+  {
+    img: drink2,
   },
   {
     img: food5,
@@ -317,129 +328,24 @@ export const galleryfb = [
     img: food6,
   },
   {
+    img: drink3,
+  },
+  {
     img: food7,
   },
   {
     img: food8,
   },
   {
+    img: drink4,
+  },
+  {
     img: food9,
   },
+  {
+    img: drink5,
+  },
 ];
-
-// export const gallery = [
-//   {
-//     img: dome7,
-//   },
-//   {
-//     img: dome8,
-//   },
-//   {
-//     img: dome9,
-//   },
-//   {
-//     img: event21,
-//   },
-//   {
-//     img: event20,
-//   },
-//   {
-//     img: event19,
-//   },
-//   {
-//     img: event18,
-//   },
-//   {
-//     img: event17,
-//   },
-//   {
-//     img: event16,
-//   },
-//   {
-//     img: event15,
-//   },
-//   {
-//     img: event14,
-//   },
-//   {
-//     img: event13,
-//   },
-//   {
-//     img: event12,
-//   },
-//   {
-//     img: event11,
-//   },
-//   {
-//     img: event10,
-//   },
-//   {
-//     img: event9,
-//   },
-//   {
-//     img: event8,
-//   },
-//   {
-//     img: about,
-//   },
-//   {
-//     img: dome1,
-//   },
-//   {
-//     img: room4,
-//   },
-//   {
-//     img: food4,
-//   },
-//   {
-//     img: room1,
-//   },
-//   {
-//     img: room3a,
-//   },
-//   {
-//     img: dome2,
-//   },
-//   {
-//     img: room2,
-//   },
-//   {
-//     img: event6,
-//   },
-//   {
-//     img: food2,
-//   },
-//   {
-//     img: room3,
-//   },
-//   {
-//     img: dome3,
-//   },
-//   {
-//     img: food3,
-//   },
-//   {
-//     img: event1,
-//   },
-//   {
-//     img: room2a,
-//   },
-//   {
-//     img: food1,
-//   },
-//   {
-//     img: dome5,
-//   },
-//   {
-//     img: food6,
-//   },
-//   {
-//     img: event2,
-//   },
-//   {
-//     img: event4,
-//   },
-// ];
 
 export const Heros = [
   {

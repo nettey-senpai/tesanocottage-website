@@ -42,6 +42,11 @@ import event12 from "./event12.jpg";
 import event13 from "./event13.jpg";
 import event14 from "./event14.jpg";
 import event15 from "./event15.jpg";
+import drink1 from "./drink1.png";
+import drink2 from "./drink2.jpg";
+import drink3 from "./drink3.png";
+import drink4 from "./drink4.jpg";
+import drink5 from "./drink5.jpg";
 
 export {
   logo,
@@ -88,4 +93,9 @@ export {
   event13,
   event14,
   event15,
+  drink1,
+  drink2,
+  drink3,
+  drink4,
+  drink5,
 };
