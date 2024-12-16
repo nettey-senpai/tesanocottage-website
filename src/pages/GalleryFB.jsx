@@ -9,6 +9,7 @@ const GalleryFB = () => (
     </Helmet>
     <div className={`${styles.boxWidth}`}>
       <GalleryFBSection />
+      
     </div>
   </div>
 );
