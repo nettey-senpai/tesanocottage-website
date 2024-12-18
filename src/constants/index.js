@@ -56,12 +56,7 @@ import {
   drink5,
 } from "../assets/images";
 
-import {
-  vid1,
-  vid2,
-  vid3,
-  vid4,
-} from "../assets/videos"
+import { vid1, vid2, vid3, vid4, vid5, vid6, vid7 } from "../assets/videos";
 
 export const hero = [
   {
@@ -321,6 +316,15 @@ export const galleryeventsVideos = [
   },
   {
     vid: vid4,
+  },
+  {
+    vid: vid5,
+  },
+  {
+    vid: vid6,
+  },
+  {
+    vid: vid7,
   },
 ];
 
