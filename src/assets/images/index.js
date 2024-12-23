@@ -42,6 +42,10 @@ import event12 from "./event12.jpg";
 import event13 from "./event13.jpg";
 import event14 from "./event14.jpg";
 import event15 from "./event15.jpg";
+import event16 from "./event16.jpg";
+import event17 from "./event17.jpg";
+import event18 from "./event18.jpg";
+import event19 from "./event19.jpg";
 import drink1 from "./drink1.png";
 import drink2 from "./drink2.jpg";
 import drink3 from "./drink3.png";
@@ -93,6 +97,10 @@ export {
   event13,
   event14,
   event15,
+  event16,
+  event17,
+  event18,
+  event19,
   drink1,
   drink2,
   drink3,

@@ -22,6 +22,10 @@ import {
   event13,
   event14,
   event15,
+  event16,
+  event17,
+  event18,
+  event19,
   event2,
   event3,
   event4,
@@ -301,6 +305,18 @@ export const galleryevents = [
   },
   {
     img: event15,
+  },
+  {
+    img: event16,
+  },
+  {
+    img: event17,
+  },
+  {
+    img: event18,
+  },
+  {
+    img: event19,
   },
 ];
 
