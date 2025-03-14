@@ -5,27 +5,28 @@ import { Link } from "react-router-dom";
 
 const EventsCenter = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-    const [autoPlay, setAutoPlay] = useState(true);
-    const timeOutRef = useRef(null); // Use useRef to store timeout reference
+  const [autoPlay, setAutoPlay] = useState(true);
+  const timeOutRef = useRef(null); // Use useRef to store timeout reference
 
   // Function for next slide
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === homeEvents.length - 1 ? 0 : prevIndex + 1));
-  }
+    setCurrentIndex((prevIndex) =>
+      prevIndex === homeEvents.length - 1 ? 0 : prevIndex + 1
+    );
+  };
 
   // Autoplay function for Events Slideshow
   useEffect(() => {
-    if(autoPlay) {
+    if (autoPlay) {
       timeOutRef.current = setTimeout(() => {
         nextSlide();
       }, 3000);
     }
-  
+
     return () => {
       if (timeOutRef.current) clearTimeout(timeOutRef.current);
-    }
-  }, [currentIndex, autoPlay]) // Ensure effect runs when `currentIndex` or `autoPlay` changes
-  
+    };
+  }, [currentIndex, autoPlay]); // Ensure effect runs when `currentIndex` or `autoPlay` changes
 
   return (
     <section
@@ -38,7 +39,6 @@ const EventsCenter = () => {
         style={{ backgroundImage: `url(${homeEvents[currentIndex].img})` }}
         className="w-full h-full bg-center bg-cover duration-700 ease-in-out md:rounded-none rounded min-h-screen"
       >
-
         {/* Section Text */}
         <div className="absolute md:top-[30%] top-[30%] right-[0%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
           <h1 className="font-palanquin font-bold text-center ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
