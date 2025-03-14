@@ -46,11 +46,11 @@ import event16 from "./event16.jpg";
 import event17 from "./event17.jpg";
 import event18 from "./event18.jpg";
 import event19 from "./event19.jpg";
+import event20 from "./event20.jpg";
 import drink1 from "./drink1.jpg";
 import drink2 from "./drink2.jpg";
 import drink3 from "./drink3.jpg";
 import drink4 from "./drink4.jpg";
-import drink5 from "./drink5.jpg";
 import billboard from "./billboard.jpg";
 import entrance from "./entrance.jpg";
 import about from "./about.jpg";
@@ -106,11 +106,11 @@ export {
   event17,
   event18,
   event19,
+  event20,
   drink1,
   drink2,
   drink3,
   drink4,
-  drink5,
   billboard,
   entrance,
   about,

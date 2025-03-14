@@ -44,20 +44,26 @@ import {
   food8,
   food9,
   room1,
+  room1a,
+  room1b,
+  room1c,
   room2,
   room2a,
+  room2b,
+  room2c,
   room3,
   room3a,
+  room3b,
   drink1,
   drink2,
   drink3,
   drink4,
-  drink5,
   billboard,
   reception,
   entrance,
   hallway,
   about,
+  event20,
 } from "../assets/images";
 
 import { vid1, vid2, vid3, vid4, vid5, vid6, vid7 } from "../assets/videos";
@@ -238,10 +244,25 @@ export const guesthouse = [
     img: room1,
   },
   {
+    img: room1a,
+  },
+  {
+    img: room1b,
+  },
+  {
+    img: room1c,
+  },
+  {
     img: room2,
   },
   {
     img: room2a,
+  },
+  {
+    img: room2b,
+  },
+  {
+    img: room2c,
   },
   {
     img: room3,
@@ -249,22 +270,16 @@ export const guesthouse = [
   {
     img: room3a,
   },
-  // {
-  //   img: room4,
-  // },
-  // {
-  //   img: room5,
-  // },
-  // {
-  //   img: room6,
-  // },
-  // {
-  //   img: room7,
-  // },
-  // {
-  //   img: room8,
-  // },
-];
+  {
+    img: room3b,
+  },
+  {
+    img: reception,
+  },
+  {
+    img: hallway,
+  },
+]
 
 export const galleryevents = [
   {
@@ -275,6 +290,9 @@ export const galleryevents = [
   },
   {
     img: dome3,
+  },
+  {
+    img: event20,
   },
   {
     img: dome4,
@@ -405,9 +423,6 @@ export const galleryfb = [
   {
     img: food9,
   },
-  {
-    img: drink5,
-  },
 ];
 
 export const Heros = [
@@ -419,9 +434,10 @@ export const Heros = [
   },
 ];
 
+
 export const rooms = [
   {
-    img: room3,
+    img: room2,
     title: "Standard Room",
     bath: "1 bathroom",
     bed: "1 bed",
@@ -434,7 +450,7 @@ export const rooms = [
     price: "GH₵ 350",
   },
   {
-    // img: room4,
+    img: room1,
     title: "Classic Standard Room",
     bath: "1 bathroom",
     bed: "1 bed",
