@@ -118,7 +118,7 @@ export const aboutSlides = [
 
 export const views = [
   {
-    // img: room5,
+    img: room1,
     label: "Guest House",
     link: "/guesthouse",
   },
