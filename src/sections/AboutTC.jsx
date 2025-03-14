@@ -56,7 +56,7 @@ const AboutTC = () => {
 
       {/* Right side */}
       <div
-        className={`${layout.sectionImg} w-full h-[500px] overflow-hidden`}
+        className={`${layout.sectionImg} w-full max-h-[254px] md:max-h-[366.55px] lg:max-h-[366.55px] overflow-hidden md:overflow-hidden`}
         onMouseLeave={() => {
           setAutoPlay(true);
         }}
@@ -64,7 +64,7 @@ const AboutTC = () => {
         <img
           src={aboutSlides[currentIndex].img}
           alt="card"
-          className="w-full h-full duration-700 ease-in-out object-cover"
+          className="w-full h-[full] duration-700 ease-in-out object-cover md:object-cover"
         />
       </div>
     </section>
