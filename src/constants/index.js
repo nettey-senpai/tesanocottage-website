@@ -426,9 +426,6 @@ export const galleryfb = [
 ];
 
 export const Heros = [
-  // {
-  //   img: room4,
-  // },
   {
     img: contactUs,
   },

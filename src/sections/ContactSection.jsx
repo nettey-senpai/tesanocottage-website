@@ -1,5 +1,4 @@
-import { contactSec } from "../assets/images";
-import { Heros } from "../constants";
+import { contactSec, contactUs } from "../assets/images";
 import styles, { layout } from "../style";
 import { Button } from "../components";
 import emailjs from "@emailjs/browser";
@@ -37,7 +36,7 @@ const ContactSection = () => {
     <section className="flex flex-col justify-center w-full group px-4 md:px-0 z-auto">
       {/* Hero */}
       <div
-        style={{ backgroundImage: `url(${Heros[1].img})` }}
+        style={{ backgroundImage: `url(${contactUs})` }}
         className="w-full md:h-[300px] h-full bg-center bg-cover duration-700 ease-in-out md:rounded-none rounded "
       >
         {/* Background Overlay */}
