@@ -54,6 +54,10 @@ import {
   drink4,
   drink5,
   billboard,
+  reception,
+  entrance,
+  hallway,
+  about,
 } from "../assets/images";
 
 import { vid1, vid2, vid3, vid4, vid5, vid6, vid7 } from "../assets/videos";
@@ -96,6 +100,21 @@ export const homeEvents = [
     img: dome1,
   },
 ];
+
+export const aboutSlides = [
+  {
+    img: entrance,
+  },
+  {
+    img: about,
+  },
+  {
+    img: reception,
+  },
+  {
+    img: hallway,
+  },
+]
 
 export const views = [
   {

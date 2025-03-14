@@ -16,7 +16,6 @@ import room2c from "./room2c.jpg";
 import room3 from "./room3.jpg";
 import room3a from "./room3a.jpg";
 import room3b from "./room3b.jpg";
-import about from "./about.jpg";
 import food1 from "./food1.jpeg";
 import food2 from "./food2.png";
 import food3 from "./food3.jpg";
@@ -53,6 +52,10 @@ import drink3 from "./drink3.jpg";
 import drink4 from "./drink4.jpg";
 import drink5 from "./drink5.jpg";
 import billboard from "./billboard.jpg";
+import entrance from "./entrance.jpg";
+import about from "./about.jpg";
+import reception from "./reception.jpg";
+import hallway from "./hallway.jpg";
 
 export {
   logo,
@@ -73,7 +76,6 @@ export {
   room3,
   room3a,
   room3b,
-  about,
   food1,
   food2,
   food3,
@@ -110,4 +112,8 @@ export {
   drink4,
   drink5,
   billboard,
+  entrance,
+  about,
+  reception,
+  hallway,
 };
