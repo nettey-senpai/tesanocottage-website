@@ -5,16 +5,17 @@ import dome2 from "./dome2.jpg";
 import dome3 from "./dome3.jpg";
 import dome4 from "./dome4.jpg";
 import dome5 from "./dome5.jpg";
-import room1 from "./room1.jpeg";
-import room2 from "./room2.jpeg";
-import room2a from "./room2a.jpeg";
-import room3 from "./room3.jpeg";
-import room3a from "./room3a.jpeg";
-import room4 from "./room4.jpeg";
-import room5 from "./room5.jpeg";
-import room6 from "./room6.jpg";
-import room7 from "./room7.jpg";
-import room8 from "./room8.jpg";
+import room1 from "./room1.jpg";
+import room1a from "./room1a.jpg";
+import room1b from "./room1b.jpg";
+import room1c from "./room1c.jpg";
+import room2 from "./room2.jpg";
+import room2a from "./room2a.jpg";
+import room2b from "./room2b.jpg";
+import room2c from "./room2c.jpg";
+import room3 from "./room3.jpg";
+import room3a from "./room3a.jpg";
+import room3b from "./room3b.jpg";
 import about from "./about.jpg";
 import food1 from "./food1.jpeg";
 import food2 from "./food2.png";
@@ -46,11 +47,12 @@ import event16 from "./event16.jpg";
 import event17 from "./event17.jpg";
 import event18 from "./event18.jpg";
 import event19 from "./event19.jpg";
-import drink1 from "./drink1.png";
+import drink1 from "./drink1.jpg";
 import drink2 from "./drink2.jpg";
-import drink3 from "./drink3.png";
+import drink3 from "./drink3.jpg";
 import drink4 from "./drink4.jpg";
 import drink5 from "./drink5.jpg";
+import billboard from "./billboard.jpg";
 
 export {
   logo,
@@ -61,15 +63,16 @@ export {
   dome4,
   dome5,
   room1,
+  room1a,
+  room1b,
+  room1c,
   room2,
   room2a,
+  room2b,
+  room2c,
   room3,
   room3a,
-  room4,
-  room5,
-  room6,
-  room7,
-  room8,
+  room3b,
   about,
   food1,
   food2,
@@ -106,4 +109,5 @@ export {
   drink3,
   drink4,
   drink5,
+  billboard,
 };

@@ -48,29 +48,31 @@ import {
   room2a,
   room3,
   room3a,
-  room4,
-  room5,
-  room6,
-  room7,
-  room8,
   drink1,
   drink2,
   drink3,
   drink4,
   drink5,
+  billboard,
 } from "../assets/images";
 
 import { vid1, vid2, vid3, vid4, vid5, vid6, vid7 } from "../assets/videos";
 
 export const hero = [
   {
+    img: billboard,
+  },
+  {
     img: room1,
   },
   {
-    img: dome1,
+    img: dome2,
   },
   {
-    img: room4,
+    img: room2,
+  },
+  {
+    img: drink3,
   },
   {
     img: food6,
@@ -97,7 +99,7 @@ export const homeEvents = [
 
 export const views = [
   {
-    img: room5,
+    // img: room5,
     label: "Guest House",
     link: "/guesthouse",
   },
@@ -228,21 +230,21 @@ export const guesthouse = [
   {
     img: room3a,
   },
-  {
-    img: room4,
-  },
-  {
-    img: room5,
-  },
-  {
-    img: room6,
-  },
-  {
-    img: room7,
-  },
-  {
-    img: room8,
-  },
+  // {
+  //   img: room4,
+  // },
+  // {
+  //   img: room5,
+  // },
+  // {
+  //   img: room6,
+  // },
+  // {
+  //   img: room7,
+  // },
+  // {
+  //   img: room8,
+  // },
 ];
 
 export const galleryevents = [
@@ -390,9 +392,9 @@ export const galleryfb = [
 ];
 
 export const Heros = [
-  {
-    img: room4,
-  },
+  // {
+  //   img: room4,
+  // },
   {
     img: contactUs,
   },
@@ -413,7 +415,7 @@ export const rooms = [
     price: "GH₵ 350",
   },
   {
-    img: room4,
+    // img: room4,
     title: "Classic Standard Room",
     bath: "1 bathroom",
     bed: "1 bed",
