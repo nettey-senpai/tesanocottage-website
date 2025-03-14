@@ -12,7 +12,7 @@ const OurRooms = () => (
     >
       <div className="relative overflow-hidden w-[300px] h-[220px] md:left-[-150px] md:top-[90px] right-[90px] md:z-0 shadow-3xl shadow-gray-400">
         <img
-          src={room1}
+          src={room3}
           alt="room1"
           className="w-[300px] h-[220px] object-cover hover:scale-125 transition ease-in-out duration-1000"
         />
@@ -26,7 +26,7 @@ const OurRooms = () => (
       </div>
       <div className="relative overflow-hidden w-[300px] h-[220px] md:right-[80px] md:bottom-[130px] right-[90px] bottom-[80px] md:z-20 shadow-3xl shadow-gray-400">
         <img
-          src={room3}
+          src={room1}
           alt="room3"
           className="w-[300px] h-[220px] object-cover hover:scale-125 transition ease-in-out duration-1000"
         />
