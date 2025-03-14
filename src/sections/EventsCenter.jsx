@@ -1,28 +1,31 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { homeEvents } from "../constants";
 import Button from "../components/Button";
 import { Link } from "react-router-dom";
 
 const EventsCenter = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [autoPlay, setAutoPlay] = useState(true);
-  let timeOut = null;
+    const [autoPlay, setAutoPlay] = useState(true);
+    const timeOutRef = useRef(null); // Use useRef to store timeout reference
 
   // Function for next slide
   const nextSlide = () => {
-    const isLastSlide = currentIndex === homeEvents.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
+    setCurrentIndex((prevIndex) => (prevIndex === homeEvents.length - 1 ? 0 : prevIndex + 1));
+  }
 
   // Autoplay function for Events Slideshow
   useEffect(() => {
-    timeOut =
-      autoPlay &&
-      setTimeout(() => {
+    if(autoPlay) {
+      timeOutRef.current = setTimeout(() => {
         nextSlide();
       }, 3000);
-  });
+    }
+  
+    return () => {
+      if (timeOutRef.current) clearTimeout(timeOutRef.current);
+    }
+  }, [currentIndex, autoPlay]) // Ensure effect runs when `currentIndex` or `autoPlay` changes
+  
 
   return (
     <section
@@ -35,8 +38,6 @@ const EventsCenter = () => {
         style={{ backgroundImage: `url(${homeEvents[currentIndex].img})` }}
         className="w-full h-full bg-center bg-cover duration-700 ease-in-out md:rounded-none rounded min-h-screen"
       >
-        {/* Background Overlay */}
-        <div className="mr-4 inset-0 w-full h-screen bg-center bg-cover bg-gray-900 bg-opacity-50 md:rounded-none rounded"></div>
 
         {/* Section Text */}
         <div className="absolute md:top-[30%] top-[30%] right-[0%] py-8 px-4 mx-auto w-full text-center lg:py-16 lg:px-12 z-10">
