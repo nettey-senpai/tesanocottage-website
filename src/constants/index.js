@@ -100,7 +100,7 @@ export const homeEvents = [
     img: event3,
   },
   {
-    img: event7,
+    img: event6,
   },
   {
     img: dome1,
@@ -120,7 +120,7 @@ export const aboutSlides = [
   {
     img: hallway,
   },
-]
+];
 
 export const views = [
   {
@@ -279,7 +279,7 @@ export const guesthouse = [
   {
     img: hallway,
   },
-]
+];
 
 export const galleryevents = [
   {
@@ -430,7 +430,6 @@ export const Heros = [
     img: contactUs,
   },
 ];
-
 
 export const rooms = [
   {
