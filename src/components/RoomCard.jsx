@@ -1,5 +1,4 @@
 import styles from "../style";
-import Button from "./Button";
 
 const RoomCard = ({
   img,
