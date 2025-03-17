@@ -4,7 +4,7 @@ const ViewsCard = ({ img, label, link }) => {
   return (
     <Link to={link}>
       <div className="flex justify-evenly">
-        <div className="flex flex-1 flex-col overflow-hidden object-contain max-w-[400px] max-h-[280px] bg-center bg-cover rounded transition ease-in duration-1000 hover:shadow-3xl hover:shadow-gray-600">
+        <div className="flex flex-1 flex-col relative overflow-hidden object-contain max-w-[400px] max-h-[280px] bg-center bg-cover rounded transition ease-in duration-1000 hover:shadow-3xl hover:shadow-gray-600">
           {/* Image */}
           <div>
             <img
@@ -14,9 +14,11 @@ const ViewsCard = ({ img, label, link }) => {
             />
           </div>
           {/* Text */}
-          <h3 className="absolute py-6 px-[120px] mx-auto w-[25%] text-center lg:py-14 lg:px-0 z-20 mt-2 font-palanquin font-bold text-4xl text-white shadow-xl">
-            {label}
-          </h3>
+          <div className="bg-red-600 absolute py-6 lg:py-0 px-0 lg:px-[120px] mx-10 sm:mx-0 w-[40%] lg:w-[50%] text-center z-20 mt-14">
+            <h3 className="font-palanquin font-bold text-4xl text-white">
+              {label}
+            </h3>
+          </div>
         </div>
       </div>
     </Link>
