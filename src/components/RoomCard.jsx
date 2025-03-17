@@ -6,7 +6,6 @@ const RoomCard = ({
   title,
   bath,
   bed,
-  people,
   space,
   price,
   tv,
@@ -15,6 +14,7 @@ const RoomCard = ({
   ac,
   waterHeater,
   desk,
+  wifi,
 }) => (
   <div>
     <div className="flex flex-1 flex-col mx-auto overflow-hidden object-contain max-w-[600px] max-h-[380px] bg-center bg-cover rounded">
@@ -45,6 +45,7 @@ const RoomCard = ({
         <li>{ac}</li>
         <li>{waterHeater}</li>
         <li>{desk}</li>
+        <li>{wifi}</li>
       </ul>
 
       <div className="flex flex-1 justify-between md:last:pr-20 pt-12">
