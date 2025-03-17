@@ -14,7 +14,11 @@ const ViewsCard = ({ img, label, link }) => {
             />
           </div>
           {/* Text */}
+<<<<<<< HEAD
           <div className="absolute py-6 lg:py-0 px-0 lg:px-[120px] mx-10 sm:mx-0 w-[40%] lg:w-[50%] text-center z-20 mt-14">
+=======
+          <div className="bg-red-600 absolute py-6 lg:py-0 px-0 lg:px-[120px] mx-10 sm:mx-0 w-[40%] lg:w-[50%] text-center z-20 mt-14">
+>>>>>>> e4e3587993e1415b98b224f918bc37a2a1da3436
             <h3 className="font-palanquin font-bold text-4xl text-white">
               {label}
             </h3>
