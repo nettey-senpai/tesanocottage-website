@@ -64,7 +64,7 @@ const AboutTC = () => {
         <img
           src={aboutSlides[currentIndex].img}
           alt="card"
-          className="w-full h-[full] duration-700 ease-in-out object-cover md:object-cover"
+          className="w-full h-[full] duration-700 ease-in-out object-cover"
         />
       </div>
     </section>
