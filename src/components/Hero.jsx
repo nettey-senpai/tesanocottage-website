@@ -1,7 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { hero } from "../constants";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import { RxDotFilled } from "react-icons/rx";
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -10,12 +9,16 @@ const Hero = () => {
 
   // Function for Prev Slide
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? hero.length - 1 : prevIndex - 1));
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? hero.length - 1 : prevIndex - 1
+    );
   };
 
   // Function for Next Slide
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === hero.length - 1 ? 0 : prevIndex + 1));
+    setCurrentIndex((prevIndex) =>
+      prevIndex === hero.length - 1 ? 0 : prevIndex + 1
+    );
   };
 
   // Autoplay function for Hero
@@ -67,9 +70,13 @@ const Hero = () => {
       {/* Dots */}
       <div className="flex top-4 justify-center py-2">
         {hero.map((_, imgIndex) => (
-          <div key={imgIndex} onClick={() => goToSlide(imgIndex)} className="text-2xl cursor-pointer">
-            <RxDotFilled />
-          </div>
+          <div
+            key={imgIndex}
+            onClick={() => goToSlide(imgIndex)}
+            className={`text-2xl cursor-pointer mx-1 w-4 h-4 rounded-full ${
+              imgIndex === currentIndex ? "bg-blue-500" : "bg-gray-300"
+            }`}
+          ></div>
         ))}
       </div>
     </section>
@@ -77,4 +84,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
