@@ -82,7 +82,7 @@ export const hero = [
     img: room2,
   },
   {
-    img: drink3,
+    img: drink2,
   },
   {
     img: food6,
