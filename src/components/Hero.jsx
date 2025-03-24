@@ -40,10 +40,6 @@ const Hero = () => {
     <section
       id="home"
       className="flex xl:flex-row flex-col justify-center w-full group px-4 md:px-0 z-auto"
-      onMouseEnter={() => {
-        setAutoPlay(false);
-        if (timeOutRef.current) clearTimeout(timeOutRef.current); // Clear timeout when hovering
-      }}
       onMouseLeave={() => setAutoPlay(true)} // Resume autoplay on mouse leave
     >
       {/* Carousel */}
