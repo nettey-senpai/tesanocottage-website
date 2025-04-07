@@ -64,9 +64,12 @@ import {
   hallway,
   about,
   event20,
+  event21,
+  event22,
+  event23,
 } from "../assets/images";
 
-import { vid1, vid2, vid3, vid4, vid5, vid6, vid7 } from "../assets/videos";
+import { vid1, vid2, vid3, vid4, vid5, vid6, vid7, vid8 } from "../assets/videos";
 
 export const hero = [
   {
@@ -357,6 +360,15 @@ export const galleryevents = [
   {
     img: event19,
   },
+  {
+    img: event21,
+  },
+  {
+    img: event22,
+  },
+  {
+    img: event23,
+  },
 ];
 
 export const galleryeventsVideos = [
@@ -380,6 +392,9 @@ export const galleryeventsVideos = [
   },
   {
     vid: vid7,
+  },
+  {
+    vid: vid8,
   },
 ];
 
